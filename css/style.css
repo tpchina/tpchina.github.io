@@ -94,7 +94,7 @@ top: 12.5px;
   
   .sidebar-navigation nav {
     position: relative;
-    top: 20%;
+    top: 50%;
     left: 50%;
     -webkit-transform: translateX(-60%) translateY(-60%);
     -moz-transform: translateX(-60%) translateY(-60%);
@@ -104,7 +104,7 @@ top: 12.5px;
   }
   
   .sidebar-navigation ul {
-    position: fixed;
+    /* position: fixed; */
     margin-left: 45px;
     list-style: none;
     padding: 0;
