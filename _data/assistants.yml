@@ -162,7 +162,7 @@ papers:
     conf: Tools and Algorithms for the Construction and Analysis of Systems (TACAS),2018
     url: https://arxiv.org/abs/1610.06996
   -
-    name: VST-Floyd: A Separation Logic Tool to Verify Correctness of C Programs
+    name: "VST-Floyd: A Separation Logic Tool to Verify Correctness of C Programs"
     authors: Qinxiang Cao, L. Beringer, Samuel Gruetter, J. Dodds, Andrew W. Appel
     conf: Journal of Automated Reasoning 61 (2018): 367-422
     url: https://www.cs.princeton.edu/~appel/papers/VST-Floyd.pdf
