@@ -137,9 +137,9 @@ competitions:
 
 papers:
   -
-    name: QED at Large:" "A Survey of Engineering of Formally Verified Software
+    name: "QED at Large: A Survey of Engineering of Formally Verified Software"
     authors: Talia Ringer, Karl Palmskog, Ilya Sergey, Milos Gligoric, Zachary Tatlock
-    conf: Foundations and Trends in Programming Languages:" "Vol. 5:" "No. 2-3, pp 102-281.
+    conf: "Foundations and Trends in Programming Languages: Vol. 5: No. 2-3, pp 102-281"
     url: https://arxiv.org/abs/2003.06458
   -
     name: Verified Textbook Algorithms
