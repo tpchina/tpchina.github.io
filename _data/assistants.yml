@@ -156,3 +156,13 @@ papers:
     authors: John Harrison, Josef Urban, Freek Wiedijk
     conf: Handbook of History of Logic
     url: https://www.cl.cam.ac.uk/~jrh13/papers/joerg.pdf
+  -
+    name: Efficient verification of imperative programs using auto2
+    authors: Bohua Zhan
+    conf: Tools and Algorithms for the Construction and Analysis of Systems (TACAS),2018
+    url: https://arxiv.org/abs/1610.06996
+  -
+    name: VST-Floyd: A Separation Logic Tool to Verify Correctness of C Programs
+    authors: Qinxiang Cao, L. Beringer, Samuel Gruetter, J. Dodds, Andrew W. Appel
+    conf: Journal of Automated Reasoning 61 (2018): 367-422
+    url: https://www.cs.princeton.edu/~appel/papers/VST-Floyd.pdf
