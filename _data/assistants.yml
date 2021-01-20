@@ -164,5 +164,5 @@ papers:
   -
     name: "VST-Floyd: A Separation Logic Tool to Verify Correctness of C Programs"
     authors: Qinxiang Cao, L. Beringer, Samuel Gruetter, J. Dodds, Andrew W. Appel
-    conf: Journal of Automated Reasoning 61 (2018): 367-422
+    conf: "Journal of Automated Reasoning 61 (2018): 367-422"
     url: https://www.cs.princeton.edu/~appel/papers/VST-Floyd.pdf
