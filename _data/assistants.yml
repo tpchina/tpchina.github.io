@@ -88,6 +88,27 @@ courses:
   -
     name: Advanced Topics in Software Verification
     url: https://www.cse.unsw.edu.au/~cs4161/
+    -
+    name: 6.892  Interactive Computer Theorem Proving
+    url: http://adam.chlipala.net/itp/
+  -
+    name: 15–815 Interactive Theorem Proving
+    url: http://leanprover.github.io/cmu-15815-s15/
+  -
+    name: 15-815 Automated Theorem Proving(2014)
+    url: https://www.cs.cmu.edu/~fp/courses/atp/
+  -
+    name: "CSE 291: Applied Automated Theorem Proving"
+    url: http://cseweb.ucsd.edu/classes/wi06/cse291-f/
+  -
+    name: Theorem Proving - Principles, Techniques, Applications
+    url: https://www.cse.unsw.edu.au/~kleing/teaching/thprv-04/index.html
+  -
+    name: Theorem Proving with Isabelle/HOL An Intensive Course
+    url: http://isabelle.in.tum.de/coursematerial/PSV2009-1/
+  -
+    name: Automated Theorem Proving
+    url: https://www.cs.miami.edu/home/geoff/Courses/TPTPSYS/FirstOrder/
 
   
 websites:
@@ -166,3 +187,5 @@ papers:
     authors: Qinxiang Cao, L. Beringer, Samuel Gruetter, J. Dodds, Andrew W. Appel
     conf: "Journal of Automated Reasoning 61 (2018): 367-422"
     url: https://www.cs.princeton.edu/~appel/papers/VST-Floyd.pdf
+  -
+    name: 
