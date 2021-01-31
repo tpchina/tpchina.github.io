@@ -1,0 +1,49 @@
+confs:
+  -
+    venue: International Conference on Computer Aided Verification (CAV) 
+    selected: true
+    content:
+      -
+        year: 2019
+        titles:
+          -
+            name: Formal Verification of Quantum Algorithms Using Quantum Hoare Logic
+            authors: Junyi Liu, Bohua Zhan, Shuling Wang, Shenggang Ying, Tao Liu, Yangjia Li, Mingsheng Ying, Naijun Zhan
+            booktitle: Computer Aided Verification - 31st International Conference, 2019, New York City, NY, USA, July 15-18, 2019, Proceedings, Part{II}
+            url: https://link.springer.com/chapter/10.1007%2F978-3-030-25543-5_12
+      -
+        year: 2020
+        titles:
+          -
+            name: Automated and Scalable Verification of Integer Multipliers
+            authors: 	Mertcan Temel, Anna Slobodová, Warren A. Hunt
+            booktitle: Computer Aided Verification - 32nd International Conference, 2020, Los Angeles, CA, USA, July 21-24, 2020, Proceedings, Part {I}
+            url: https://link.springer.com/chapter/10.1007%2F978-3-030-53288-8_23
+
+  -
+    venue: Interactive Theorem Proving(ITP)
+    selected: false
+    years:
+      -
+        year: 2019
+        url: https://itp19.cecs.pdx.edu/accepted-papers/
+      -
+        year: 2018
+        url: https://itp2018.inria.fr/accepted-papers/
+      -
+        year: 2017
+        url: http://itp2017.cic.unb.br/#accepted
+
+  -
+    venue: International Conference on Certified Programs and Proofs (CPP)
+    selected: false
+    years:
+      -
+        year: 2020
+        url: https://dblp.uni-trier.de/db/conf/cpp/cpp2020.html
+      -
+        year: 2019
+        url: https://dblp.uni-trier.de/db/conf/cpp/cpp2019.html
+      -
+        year: 2018
+        url: https://dblp.uni-trier.de/db/conf/cpp/cpp2018.html

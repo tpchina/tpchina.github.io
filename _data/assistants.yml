@@ -88,7 +88,7 @@ courses:
   -
     name: Advanced Topics in Software Verification
     url: https://www.cse.unsw.edu.au/~cs4161/
-    -
+  -
     name: 6.892  Interactive Computer Theorem Proving
     url: http://adam.chlipala.net/itp/
   -
@@ -187,5 +187,3 @@ papers:
     authors: Qinxiang Cao, L. Beringer, Samuel Gruetter, J. Dodds, Andrew W. Appel
     conf: "Journal of Automated Reasoning 61 (2018): 367-422"
     url: https://www.cs.princeton.edu/~appel/papers/VST-Floyd.pdf
-  -
-    name: 
