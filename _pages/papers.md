@@ -1,6 +1,6 @@
 ---
 layout: about
-permalink: papers
+permalink: /papers/
 title: Papers
 description:  Papers related to theorem proving
 ---
