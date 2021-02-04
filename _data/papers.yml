@@ -49,7 +49,7 @@ confs:
         url: https://dblp.uni-trier.de/db/conf/cpp/cpp2018.html
   -
     venue: Operating Systems Design and Implementation (OSDI) 
-    selected: false
+    selected: true
     content:
       -
         year: 2020
