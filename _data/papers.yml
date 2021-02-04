@@ -47,3 +47,15 @@ confs:
       -
         year: 2018
         url: https://dblp.uni-trier.de/db/conf/cpp/cpp2018.html
+  -
+    venue: Operating Systems Design and Implementation (OSDI) 
+    selected: false
+    content:
+      -
+        year: 2020
+        titles:
+          -
+            name: "Specification and verification in the field: Applying formal methods to BPF just-in-time compilers in the Linux kernel"
+            authors: Luke Nelson, Jacob Van Geffen, Emina Torlak, Xi Wang
+            booktitle: 14th USENIX Symposium on Operating Systems Design and Implementation, OSDI 2020, Virtual Event, November 4-6, 2020
+            url: https://www.usenix.org/conference/osdi20/presentation/nelson
