@@ -48,6 +48,19 @@ confs:
         year: 2018
         url: https://dblp.uni-trier.de/db/conf/cpp/cpp2018.html
   -
+    venue: International Conference on Functional Programming (ICFP)
+    selected: false
+    years:
+      -
+        year: 2020
+        url: https://icfp20.sigplan.org/track/icfp-2020-papers#event-overview
+      -
+        year: 2019
+        url: https://icfp19.sigplan.org/track/icfp-2019-papers#event-overview
+      -
+        year: 2018
+        url: https://icfp18.sigplan.org/track/icfp-2018-papers#event-overview
+  -
     venue: Operating Systems Design and Implementation (OSDI) 
     selected: true
     content:
