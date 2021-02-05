@@ -17,9 +17,11 @@ description:  Papers related to theorem proving
 {% endfor %}
 {% endfor %}
 {% else %}
+<p>
 {% for y in conf.years%}
-* [{{y.year}}]({{year.url}})
+<a href="{{y.url}}">{{y.year}}</a>
 {% endfor %}
+</p>
 {% endif %}
 
 {% endfor %}
