@@ -1,0 +1,34 @@
+<div class="left_sidebar">
+    {% if page.class == "atp" %}
+    <h5><strong>自动定理证明</strong></h5>
+    {% assign items = site.data.atp_papers.class %}
+    {% else %}
+    <h5><strong>交互式定理证明</strong></h5>
+    {% assign items = site.data.itp_papers.class %}
+    {% endif %}
+    {% for item in items %}
+        {% if page.title == item.topic %}
+            <p><a href="{{item.link}}" style="color:blue">{{item.topic}}</a></p>
+        {% else %}
+            <p><a href="{{item.link}}">{{item.topic}}</a></p>
+        {% endif %}
+        {% endfor %}
+</div>
+
+{% if page.enable_right == true %}
+<div class="right_sidebar">
+    <h5><strong>目录</strong></h5>
+    {% if page.class == "atp" %}
+    {% assign items = site.data.atp_papers.class %}
+    {% else %}
+    {% assign items = site.data.itp_papers.class %}
+    {% endif %}
+    {% for cl in items %}
+    {% if cl.topic == page.title %}
+    {% for topic in cl.category %}
+        <p>{{topic.name}}</p>
+    {% endfor %}
+    {% endif %}
+    {% endfor %}
+</div>
+{% endif %}

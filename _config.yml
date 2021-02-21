@@ -75,7 +75,7 @@ markdown: kramdown
 highlighter: rouge
 
 # Includes & excludes
-include: ['_pages']
+include: ['_pages', '_atp', '_itp']
 exclude: [vendor]
 
 # Plug-ins

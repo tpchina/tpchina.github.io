@@ -1,0 +1,31 @@
+class:
+  -
+    topic: SAT求解
+    link: /atp/sat/
+    category:
+      -
+        name: 概述
+      -
+        name: 并行求解及应用
+      -
+        name: 证明检验
+  -
+    topic: SMT求解
+    link: /atp/smt/
+    category:
+      -
+        name: 概述
+      -
+        name: 基本算法
+      -
+        name: Congurence Closure
+  -
+    topic: 一阶逻辑求解
+    link: /atp/first_order/
+    category:
+      -
+        name: 概述
+      -
+        name: 系统介绍
+      -
+        name: 算法验证

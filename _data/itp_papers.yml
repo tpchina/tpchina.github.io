@@ -1,0 +1,31 @@
+class:
+  -
+    topic: 概述和历史
+    link: /itp/history/
+    category:
+      -
+        name: 概述
+  -
+    topic: 证明辅助工具
+    link: /itp/assistants/
+    category:
+      -
+        name: 系统介绍
+      -
+        name: 证明策略和语言
+      -
+        name: 归纳和余归纳
+      -
+        name: 用户界面
+  -
+    topic: 形式化数学
+    link: /itp/math/
+    category:
+      -
+        name: 大规模验证
+      -
+        name: 验证框架
+      -
+        name: 数学分析
+      -
+        name: 代数
