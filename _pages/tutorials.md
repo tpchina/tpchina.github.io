@@ -1,17 +1,18 @@
 ---
 layout: page
 permalink: /readings/
-title: Readings
+title: 资料
 description: Readings about theorem proving.
+nav: true
 ---
 ### Official
-{% for items in site.data.assistants.official%}
+{% for items in site.data.tutorials.official%}
 * <a class="page-link" href="{{items.link}}"> {{items.name}} </a>
 {% endfor %}
 
 ### Tutorials/Books
 
-{% for item in site.data.assistants.books_tutorials%}
+{% for item in site.data.tutorials.books_tutorials%}
 #### {{item.name}}
 {% for reading in item.readings%}
 {% if reading.authors %}
@@ -23,31 +24,21 @@ description: Readings about theorem proving.
 {% endfor %}
 
 ### Courses
-{% for course in site.data.assistants.courses %}
+{% for course in site.data.tutorials.courses %}
 * <a class="page-link" href="{{course.url}}">{{course.name}}</a>
 {% endfor %}
 
 ### Websites
-{% for site in site.data.assistants.websites %}
+{% for site in site.data.tutorials.websites %}
 * <a class="page-link" href="{{site.url}}">{{site.name}}</a>
 {% endfor %}
 
 ### Groups
-{% for group in site.data.assistants.groups%}
+{% for group in site.data.tutorials.groups%}
 * <a class="page-link" href="{{group.url}}">{{group.name}}</a>
 {% endfor %}
 
 ### Competitions
-{% for competition in site.data.assistants.competitions%}
+{% for competition in site.data.tutorials.competitions%}
 * <a class="page-link" href="{{competition.url}}">{{competition.name}}</a>
 {% endfor %}
-
-### Papers
-{% for paper in site.data.assistants.papers%}
-* "{{paper.name}}." [PDF]({{paper.url}})<br />
-{{paper.authors}},<br />
-{{paper.conf}}
-{% endfor %}
-
-
-

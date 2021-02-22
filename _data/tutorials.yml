@@ -1,0 +1,157 @@
+official:
+  - 
+    name: Isabelle 
+    link: https://isabelle.in.tum.de
+  - 
+    name: Coq
+    link: https://coq.inria.fr/
+  - 
+    name: Agda
+    link: https://leanprover.github.io/
+  - 
+    name: Lean Prover
+    link: https://wiki.portal.chalmers.se/agda/pmwiki.php
+  -
+    name: ACL2
+    link: https://www.cs.utexas.edu/users/moore/acl2/
+  -
+    name: HOL4
+    link: https://hol-theorem-prover.org/
+  -
+    name: HOL Light
+    link: https://github.com/jrh13/hol-light/
+
+books_tutorials:
+  -
+    name: Isabelle
+    readings:
+      -
+        authors: Tobias Nipkow, Gerwin Klein
+        name: Concrete Semantics
+        url: http://www.concrete-semantics.org/
+      
+      -
+        authors: Lawrence C. Paulson
+        name: ML for the Working Programmer, 2nd Edition
+        url: https://www.cl.cam.ac.uk/~lp15/MLbook/pub-details.html
+
+      -
+        authors: Gerwin Klein
+        name: Proof Craft
+        url: http://proofcraft.org/
+
+  -
+    name: Coq
+    readings: 
+      -
+        authors: Benjamin C. Pierce et al.
+        name: Software Foundations
+        url: https://softwarefoundations.cis.upenn.edu/
+      -
+        authors: Adam Chlipala
+        name: Certified Programming with Dependent Types
+        url: http://adam.chlipala.net/cpdt/
+  -
+    name: Lean
+    readings:
+      -
+        authors: Jeremy Avigad, Leonardo de Moura, and Soonho Kong
+        name: Theorem Proving in Lean
+        url: https://leanprover.github.io/theorem_proving_in_lean/
+      -
+        authors: Kevin Buzzard and Mohammad Pedramfar
+        name: The Natural Number Game
+        url: https://wwwf.imperial.ac.uk/~buzzard/xena/natural_number_game/
+  -
+    name: Agda
+    readings:
+      -
+        name: A List of Tutorials
+        url: https://agda.readthedocs.io/en/v2.6.1.1/getting-started/tutorial-list.html
+  -
+    name: HOL4
+    readings:
+      -
+        name: The HOL System Description
+        url: http://sourceforge.net/projects/hol/files/hol/kananaskis-13/kananaskis-13-description.pdf/download
+
+courses:
+  -
+    name: OPLSS(Oregon Programming Languages Summer School)
+    url: https://www.cs.uoregon.edu/research/summerschool/summer20/
+  -
+    name: Interactive Formal Verification
+    url: https://www.cl.cam.ac.uk/teaching/1314/L21/
+  -
+    name: Semantics of Programming Languages
+    url: https://www21.in.tum.de/~nipkow/semantics/
+  -
+    name: Advanced Topics in Software Verification
+    url: https://www.cse.unsw.edu.au/~cs4161/
+  -
+    name: 6.892  Interactive Computer Theorem Proving
+    url: http://adam.chlipala.net/itp/
+  -
+    name: 15–815 Interactive Theorem Proving
+    url: http://leanprover.github.io/cmu-15815-s15/
+  -
+    name: 15-815 Automated Theorem Proving(2014)
+    url: https://www.cs.cmu.edu/~fp/courses/atp/
+  -
+    name: "CSE 291: Applied Automated Theorem Proving"
+    url: http://cseweb.ucsd.edu/classes/wi06/cse291-f/
+  -
+    name: Theorem Proving - Principles, Techniques, Applications
+    url: https://www.cse.unsw.edu.au/~kleing/teaching/thprv-04/index.html
+  -
+    name: Theorem Proving with Isabelle/HOL An Intensive Course
+    url: http://isabelle.in.tum.de/coursematerial/PSV2009-1/
+  -
+    name: Automated Theorem Proving
+    url: https://www.cs.miami.edu/home/geoff/Courses/TPTPSYS/FirstOrder/
+
+  
+websites:
+  -
+    name: Isabelle Quick Access Links
+    url: https://isabelle.systems
+
+  -
+    name: Isabelle Developers
+    url: https://isabelle-dev.sketis.net  
+
+  -
+    name: Proof Search
+    url: https://search.isabelle.in.tum.de
+
+  -
+    name: Proof Engineering
+    url: https://proofengineering.org    
+
+groups:
+  -
+    name: LRI Isabelle Club
+    url: https://vals.lri.fr/isabelleclub/
+  - 
+    name: Chair for Logic and Verification
+    url: https://www21.in.tum.de/
+  -
+    name: Lawrence Paulson
+    url: https://www.cl.cam.ac.uk/~lp15/
+  -
+    name: Matryoshka (Fast Interactive Verification through Strong Higher-Order Automation)
+    url: https://matryoshka-project.github.io/
+  -
+    name: Lean Forward
+    url: https://lean-forward.github.io/
+
+competitions:
+  -
+    name: Proving for Fun
+    url: https://competition.isabelle.systems/
+  -
+    name: Proof Ground
+    url: https://www21.in.tum.de/~wimmers/proofground/
+  -
+    name: Verify This
+    url: https://www.pm.inf.ethz.ch/research/verifythis.html

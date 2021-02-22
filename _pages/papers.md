@@ -1,27 +1,9 @@
 ---
 layout: about
-permalink: /papers/
-title: Papers
+permalink: /papers_intro/
+title: 论文
 description:  Papers related to theorem proving
+nav: true
 ---
 
-{% for conf in site.data.papers.confs %}
-### {{conf.venue}}
-{% if conf.selected %}
-{% for c in conf.content %}
-#### {{c.year}}
-{% for title in c.titles %}
-* "{{title.name}}. "[PDF]({{title.url}})<br />
-{{title.authors}},<br />
-{{title.booktitle}}
-{% endfor %}
-{% endfor %}
-{% else %}
-<p>
-{% for y in conf.years%}
-<a href="{{y.url}}">{{y.year}}</a>
-{% endfor %}
-</p>
-{% endif %}
-
-{% endfor %}
+本栏目对于[自动定理证明](../atp_papers)，[交互式定理证明](../itp_papers)的相关资料与论文进行了分类整理。

@@ -1,10 +1,10 @@
 <div class="left_sidebar">
     {% if page.class == "atp" %}
     <h5><strong>自动定理证明</strong></h5>
-    {% assign items = site.data.atp_papers.class %}
+    {% assign items = site.data.paper_index["ATP"] %}
     {% else %}
     <h5><strong>交互式定理证明</strong></h5>
-    {% assign items = site.data.itp_papers.class %}
+    {% assign items = site.data.paper_index["ITP"] %}
     {% endif %}
     {% for item in items %}
         {% if page.title == item.topic %}
@@ -19,9 +19,9 @@
 <div class="right_sidebar">
     <h5><strong>目录</strong></h5>
     {% if page.class == "atp" %}
-    {% assign items = site.data.atp_papers.class %}
+    {% assign items = site.data.paper_index["ATP"] %}
     {% else %}
-    {% assign items = site.data.itp_papers.class %}
+    {% assign items = site.data.paper_index["ITP"] %}
     {% endif %}
     {% for cl in items %}
     {% if cl.topic == page.title %}
