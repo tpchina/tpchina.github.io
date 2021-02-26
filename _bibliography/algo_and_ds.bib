@@ -9,5 +9,126 @@
     pages = {25-53},
     year =2020,
     note = {Invited paper},
-    category = {概述}
+    category = {概述},
+    abbr = {ATVA}
 }
+
+@inproceedings{10.1145/1863543.1863590,
+    author = {Chargu\'{e}raud, Arthur},
+    title = {Program Verification through Characteristic Formulae},
+    year = {2010},
+    isbn = {9781605587943},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    url = {https://doi.org/10.1145/1863543.1863590},
+    doi = {10.1145/1863543.1863590},
+    abstract = {This paper describes CFML, the first program verification tool based on characteristic formulae. Given the source code of a pure Caml program, this tool generates a logical formula that implies any valid post-condition for that program. One can then prove that the program satisfies a given specification by reasoning interactively about the characteristic formula using a proof assistant such as Coq. Our characteristic formulae improve over Honda et al's total characteristic assertion pairs in that they are expressible in standard higher-order logic, allowing to exploit them in practice to verify programs using existing proof assistants. Our technique has been applied to formally verify more than half of the content of Okasaki's Purely Functional Data Structures reference book},
+    booktitle = {Proceedings of the 15th ACM SIGPLAN International Conference on Functional Programming},
+    pages = {321–332},
+    numpages = {12},
+    keywords = {functional program, characteristic formula, total correctness},
+    location = {Baltimore, Maryland, USA},
+    series = {ICFP '10},
+    category = {验证框架},
+    abbr = {ICFP}
+}
+
+@inproceedings{10.1145/2034773.2034828,
+    author = {Chargu\'{e}raud, Arthur},
+    title = {Characteristic Formulae for the Verification of Imperative Programs},
+    year = {2011},
+    isbn = {9781450308656},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    url = {https://doi.org/10.1145/2034773.2034828},
+    doi = {10.1145/2034773.2034828},
+    abstract = {In previous work, we introduced an approach to program verification based on characteristic formulae. The approach consists of generating a higher-order logic formula from the source code of a program. This characteristic formula is constructed in such a way that it gives a sound and complete description of the semantics of that program. The formula can thus be exploited in an interactive proof assistant to formally verify that the program satisfies a particular specification.This previous work was, however, only concerned with purely-functional programs. In the present paper, we describe the generalization of characteristic formulae to an imperative programming language. In this setting, characteristic formulae involve specifications expressed in the style of Separation Logic. They also integrate the frame rule, which enables local reasoning. We have implemented a tool based on characteristic formulae. This tool, called CFML, supports the verification of imperative Caml programs using the Coq proof assistant. Using CFML, we have formally verified nontrivial imperative algorithms, as well as CPS functions, higher-order iterators, and programs involving higher-order stores.},
+    booktitle = {Proceedings of the 16th ACM SIGPLAN International Conference on Functional Programming},
+    pages = {418–430},
+    numpages = {13},
+    keywords = {characteristic formula, total correctness, interactive verification},
+    location = {Tokyo, Japan},
+    series = {ICFP '11},
+    category = {验证框架},
+    abbr = {ICFP}
+}
+
+@InProceedings{10.1007/978-3-642-39634-2_9,
+    author="Lammich, Peter",
+    editor="Blazy, Sandrine
+    and Paulin-Mohring, Christine
+    and Pichardie, David",
+    title="Automatic Data Refinement",
+    booktitle="Interactive Theorem Proving",
+    year="2013",
+    publisher="Springer Berlin Heidelberg",
+    address="Berlin, Heidelberg",
+    pages="84--99",
+    abstract="We present the Autoref tool for Isabelle/HOL, which automatically refines algorithms specified over abstract concepts like maps and sets to algorithms over concrete implementations like red-black-trees, and produces a refinement theorem. It is based on ideas borrowed from relational parametricity due to Reynolds and Wadler.",
+    isbn="978-3-642-39634-2",
+    category = {验证框架},
+    abbr = {ITP}
+}
+
+@article{10.1007/s10817-017-9437-1,
+    author = {Lammich, Peter},
+    title = {Refinement to Imperative HOL},
+    year = {2019},
+    issue_date = {April     2019},
+    publisher = {Springer-Verlag},
+    address = {Berlin, Heidelberg},
+    volume = {62},
+    number = {4},
+    issn = {0168-7433},
+    url = {https://doi.org/10.1007/s10817-017-9437-1},
+    doi = {10.1007/s10817-017-9437-1},
+    abstract = {Many algorithms can be implemented most efficiently with imperative data structures. This paper presents Sepref, a stepwise refinement based tool chain for the verification of imperative algorithms in Isabelle/HOL. As a back end we use imperative HOL, which allows to generate verified imperative code. On top of imperative HOL, we develop a separation logic framework with powerful proof tactics. We use this framework to verify basic imperative data structures and to define a refinement calculus between imperative and functional programs. We provide a tool to automatically synthesize a concrete imperative program and a refinement proof from an abstract functional program, selecting implementations of abstract data types according to a user-provided configuration. As a front end to describe the abstract programs, we use the Isabelle Refinement Framework, for which many algorithms have already been formalized. Our tool chain is complemented by a large selection of verified imperative data structures. We have used Sepref for several verification projects, resulting in efficient verified implementations that are competitive with unverified ones in Java or C$$++$$++.},
+    journal = {J. Autom. Reason.},
+    month = apr,
+    pages = {481–503},
+    numpages = {23},
+    keywords = {Imperative HOL, Isabelle/HOL, Refinement calculus, Separation logic, Stepwise refinement},
+    category = {验证框架},
+    abbr = {ITP}
+}
+
+@article{DBLP:journals/jar/LammichL19,
+    author    = {Peter Lammich and
+                Andreas Lochbihler},
+    title     = {Automatic Refinement to Efficient Data Structures: {A} Comparison
+                of Two Approaches},
+    journal   = {J. Autom. Reason.},
+    volume    = {63},
+    number    = {1},
+    pages     = {53--94},
+    year      = {2019},
+    url       = {https://doi.org/10.1007/s10817-018-9461-9},
+    doi       = {10.1007/s10817-018-9461-9},
+    timestamp = {Wed, 02 Sep 2020 13:30:05 +0200},
+    biburl    = {https://dblp.org/rec/journals/jar/LammichL19.bib},
+    bibsource = {dblp computer science bibliography, https://dblp.org},
+    category = {验证框架},
+    abbr = {JAR}
+}
+
+@inproceedings{10.1145/2854065.2854068,
+    author = {Chargu\'{e}raud, Arthur},
+    title = {Higher-Order Representation Predicates in Separation Logic},
+    year = {2016},
+    isbn = {9781450341271},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    url = {https://doi.org/10.1145/2854065.2854068},
+    doi = {10.1145/2854065.2854068},
+    abstract = { In Separation Logic, representation predicates are used to describe mutable data structures, by establishing a relationship between the entry point of the structure, the piece of heap over which this structure spans, and the logical model associated with the structure. When a data structure is polymorphic, such as in the case of a container, its representation predicate needs to be parameterized not just by the type of the items stored in the structure, but also by the representation predicates associated with these items. Such higher-order representation predicates can be used in particular to control whether containers should own their items. In this paper, we present, through a collection of practical examples, solutions to the challenges associated with reasoning about accesses into data structures that own their elements. },
+    booktitle = {Proceedings of the 5th ACM SIGPLAN Conference on Certified Programs and Proofs},
+    pages = {3–14},
+    numpages = {12},
+    keywords = {Representation Predicates, Separation Logic},
+    location = {St. Petersburg, FL, USA},
+    series = {CPP 2016},
+    category = {验证框架},
+    abbr = {CPP}
+}
+
+
