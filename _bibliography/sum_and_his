@@ -1,0 +1,70 @@
+@article{DBLP:journals/jar/Wiedijk12,
+  author    = {  J Harrison，J Urban，F Wiedijk },
+  title     = {  	History of Interactive Theorem Proving	  },
+  journal   = {J. Autom. Reason.},
+  volume    = {49},
+  number    = {1},
+  pages     = {48-65},
+  year      = {  2014   },
+  url       = {https://doi.org/10.1016/B978-0-444-51624-4.50004-6},
+  doi       = {10.1016/B978-0-444-51624-4.50004-6},
+  timestamp = {Wed, 02 Sep 2020 13:29:51 +0200},
+  biburl    = {https://dblp.org/rec/journals/jar/Wiedijk12.bib},
+  bibsource = { Handbook of History of Logic    , http://cpp.org/},
+  category  = { 概述}
+  abbr      = {概述和历史}
+}
+
+
+@article{DBLP:journals/jar/Wiedijk12,
+  author    = { Paulson，C Lawrence  },
+  title     = {  omputational logic: its origins and applications	  },
+  journal   = {J. Autom. Reason.},
+  volume    = {49},
+  number    = {1},
+  pages     = {48-65},
+  year      = {   2018  },
+  url       = {https://doi.org/10.1098/rspa.2017.0872},
+  doi       = {10.1098/rspa.2017.0872},
+  timestamp = {Wed, 02 Sep 2020 13:29:51 +0200},
+  biburl    = {https://dblp.org/rec/journals/jar/Wiedijk12.bib},
+  bibsource = {   Proceedings of the Royal Society  , http://cpp.org/},
+  category  = { 概述}
+  abbr      = {概述和历史}
+}
+
+
+@article{DBLP:journals/jar/Wiedijk12,
+  author    = { LC Paulson，T Nipkow，M Wenzel  },
+  title     = {  	From LCF to Isabelle/HOL	  },
+  journal   = {J. Autom. Reason.},
+  volume    = {49},
+  number    = {1},
+  pages     = {48-65},
+  year      = {   2019  },
+  url       = {https://doi.org/10.1007/s00165-019-00492-1},
+  doi       = {10.1007/s00165-019-00492-1},
+  timestamp = {Wed, 02 Sep 2020 13:29:51 +0200},
+  biburl    = {https://dblp.org/rec/journals/jar/Wiedijk12.bib},
+  bibsource = {  Formal Aspects of Computing   , http://cpp.org/},
+  category  = { 概述}
+  abbr      = {概述和历史}
+}
+
+
+@article{DBLP:journals/jar/Wiedijk12,
+  author    = { T Ringer，K Palmskog，I Sergey，M Gligoric，Z Tatlock  },
+  title     = {  	QED at Large: A Survey of Engineering of Formally Verified Software 	  },
+  journal   = {J. Autom. Reason.},
+  volume    = {49},
+  number    = {1},
+  pages     = {48-65},
+  year      = {   2019  },
+  url       = {https://doi.org/10.1561/2500000045},
+  doi       = {10.1561/2500000045},
+  timestamp = {Wed, 02 Sep 2020 13:29:51 +0200},
+  biburl    = {https://dblp.org/rec/journals/jar/Wiedijk12.bib},
+  bibsource = {   Foundations and Trends in Programming Languages  , http://cpp.org/},
+  category  = { 概述}
+  abbr      = {概述和历史}
+}
