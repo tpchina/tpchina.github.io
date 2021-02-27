@@ -1,0 +1,450 @@
+@article{DBLP:journals/jar/Wiedijk12,
+  author    = {N Een，A Mishchenko，R Brayton},
+  title     = { Handbook of Model Checking  (Chapter 11)},
+  journal   = {J. Autom. Reason.},
+  volume    = {49},
+  number    = {1},
+  pages     = {48-65},
+  year      = {2011},
+  url       = {https://doi.org/10.1007/s10817-012-9251-8},
+  doi       = {10.1007/s10817-018-9455-7},
+  timestamp = {Wed, 02 Sep 2020 13:29:51 +0200},
+  biburl    = {https://dblp.org/rec/journals/jar/Wiedijk12.bib},
+  bibsource = {fmcad , http://cpp.org/},
+  category  = { 概述 }
+  abbr      = {SMT}
+}
+
+@article{DBLP:journals/jar/Wiedijk12,
+  author    = {F Wiedijk},
+  title     = { 	Handbook of Practical Logic and Automated Reasoning (Chapter 4, 5) },
+  journal   = {J. Autom. Reason.},
+  volume    = {49},
+  number    = {1},
+  pages     = {48-65},
+  year      = {2009},
+  url       = {https://doi.org/10.1007/s10817-012-9251-8},
+  doi       = {10.1007/s10817-018-9455-7},
+  timestamp = {Wed, 02 Sep 2020 13:29:51 +0200},
+  biburl    = {https://dblp.org/rec/journals/jar/Wiedijk12.bib},
+  bibsource = {fmcad , http://cpp.org/},
+  category  = { 概述 }
+  abbr      = {SMT}
+}
+
+
+
+@article{DBLP:journals/jar/Wiedijk12,
+  author    = {D Detlefs，G Nelson},
+  title     = {Simplify: A Theorem Prover for Program Checking },
+  journal   = {J. Autom. Reason.},
+  volume    = {49},
+  number    = {1},
+  pages     = {48-65},
+  year      = {2005},
+  url       = {https://doi.org/10.1007/s10817-012-9251-8},
+  doi       = {10.1007/s10817-018-9455-7},
+  timestamp = {Wed, 02 Sep 2020 13:29:51 +0200},
+  biburl    = {https://dblp.org/rec/journals/jar/Wiedijk12.bib},
+  bibsource = {jacm , http://cpp.org/},
+  category  = { 基本算法}
+  abbr      = {SMT}
+}
+
+@article{DBLP:journals/jar/Wiedijk12,
+  author    = {R Nieuwenhuis，A Oliveras，C Tinelli},
+  title     = {	Solving SAT and SAT Modulo Theories: From an Abstract Davis–Putnam–Logemann–Loveland Procedure to DPLL(T) },
+  journal   = {J. Autom. Reason.},
+  volume    = {49},
+  number    = {1},
+  pages     = {48-65},
+  year      = {2006},
+  url       = {https://doi.org/10.1007/s10817-012-9251-8},
+  doi       = {10.1007/s10817-018-9455-7},
+  timestamp = {Wed, 02 Sep 2020 13:29:51 +0200},
+  biburl    = {https://dblp.org/rec/journals/jar/Wiedijk12.bib},
+  bibsource = {jacm , http://cpp.org/},
+  category  = { 基本算法}
+  abbr      = {SMT}
+}
+
+
+@article{DBLP:journals/jar/Wiedijk12,
+  author    = {Leonardo Mendonca De Moura，Nikolaj Skallerud Bj，rner},
+  title     = {	Engineering DPLL(T) + Saturation},
+  journal   = {J. Autom. Reason.},
+  volume    = {49},
+  number    = {1},
+  pages     = {48-65},
+  year      = {2008			},
+  url       = {https://doi.org/10.1007/s10817-012-9251-8},
+  doi       = {10.1007/s10817-018-9455-7},
+  timestamp = {Wed, 02 Sep 2020 13:29:51 +0200},
+  biburl    = {https://dblp.org/rec/journals/jar/Wiedijk12.bib},
+  bibsource = {ijcar , http://cpp.org/},
+  category  = { 基本算法}
+  abbr      = {SMT}
+}
+
+@article{DBLP:journals/jar/Wiedijk12,
+  author    = {R Nieuwenhuis},
+  title     = {	Fast congruence closure and extensions },
+  journal   = {J. Autom. Reason.},
+  volume    = {49},
+  number    = {1},
+  pages     = {48-65},
+  year      = {2007			},
+  url       = {https://doi.org/10.1007/s10817-012-9251-8},
+  doi       = {10.1007/s10817-018-9455-7},
+  timestamp = {Wed, 02 Sep 2020 13:29:51 +0200},
+  biburl    = {https://dblp.org/rec/journals/jar/Wiedijk12.bib},
+  bibsource = {Information and Computation , http://cpp.org/},
+  category  = { 	Congruence closure}
+  abbr      = {SMT}
+}
+
+
+@article{DBLP:journals/jar/Wiedijk12,
+  author    = {LD Moura，N Bjørner},
+  title     = {	Efficient E-Matching for SMT Solvers  },
+  journal   = {J. Autom. Reason.},
+  volume    = {49},
+  number    = {1},
+  pages     = {48-65},
+  year      = {2007			},
+  url       = {https://doi.org/10.1007/s10817-012-9251-8},
+  doi       = {10.1007/s10817-018-9455-7},
+  timestamp = {Wed, 02 Sep 2020 13:29:51 +0200},
+  biburl    = {https://dblp.org/rec/journals/jar/Wiedijk12.bib},
+  bibsource = {cade , http://cpp.org/},
+  category  = { 	Congruence closure}
+  abbr      = {SMT}
+}
+
+@article{DBLP:journals/jar/Wiedijk12,
+  author    = {H Barbosa，P Fontaine，A Reynolds},
+  title     = {	Congruence Closure with Free Variables  },
+  journal   = {J. Autom. Reason.},
+  volume    = {49},
+  number    = {1},
+  pages     = {48-65},
+  year      = {2017			},
+  url       = {https://doi.org/10.1007/s10817-012-9251-8},
+  doi       = {10.1007/s10817-018-9455-7},
+  timestamp = {Wed, 02 Sep 2020 13:29:51 +0200},
+  biburl    = {https://dblp.org/rec/journals/jar/Wiedijk12.bib},
+  bibsource = {TACAS , http://cpp.org/},
+  category  = { 	Congruence closure}
+  abbr      = {SMT}
+}
+
+@article{DBLP:journals/jar/Wiedijk12,
+  author    = {B Dutertre，LD Moura},
+  title     = {	A Fast Linear-Arithmetic Solver for DPLL(T) },
+  journal   = {J. Autom. Reason.},
+  volume    = {49},
+  number    = {1},
+  pages     = {48-65},
+  year      = {2006			},
+  url       = {https://doi.org/10.1007/s10817-012-9251-8},
+  doi       = {10.1007/s10817-018-9455-7},
+  timestamp = {Wed, 02 Sep 2020 13:29:51 +0200},
+  biburl    = {https://dblp.org/rec/journals/jar/Wiedijk12.bib},
+  bibsource = {CAV , http://cpp.org/},
+  category  = { decision procedures}
+  abbr      = {SMT}
+}
+
+
+
+@article{DBLP:journals/jar/Wiedijk12,
+  author    = {AR Bradley，Z Manna，HB Sipma},
+  title     = {	What's Decidable About Arrays },
+  journal   = {J. Autom. Reason.},
+  volume    = {49},
+  number    = {1},
+  pages     = {48-65},
+  year      = {2006			},
+  url       = {https://doi.org/10.1007/s10817-012-9251-8},
+  doi       = {10.1007/s10817-018-9455-7},
+  timestamp = {Wed, 02 Sep 2020 13:29:51 +0200},
+  biburl    = {https://dblp.org/rec/journals/jar/Wiedijk12.bib},
+  bibsource = {VMCAI , http://cpp.org/},
+  category  = { decision procedures}
+  abbr      = {SMT}
+}
+
+@article{DBLP:journals/jar/Wiedijk12,
+  author    = {LMD Moura，N Bjørner},
+  title     = {		Generalized, Efficient Array Decision Procedures  },
+  journal   = {J. Autom. Reason.},
+  volume    = {49},
+  number    = {1},
+  pages     = {48-65},
+  year      = {2009			},
+  url       = {https://doi.org/10.1007/s10817-012-9251-8},
+  doi       = {10.1007/s10817-018-9455-7},
+  timestamp = {Wed, 02 Sep 2020 13:29:51 +0200},
+  biburl    = {https://dblp.org/rec/journals/jar/Wiedijk12.bib},
+  bibsource = {FMCAD , http://cpp.org/},
+  category  = { decision procedures}
+  abbr      = {SMT}
+}
+@article{DBLP:journals/jar/Wiedijk12,
+  author    = {Y Ge，LMD Moura},
+  title     = {	Complete Instantiation for Quantified Formulas in Satisfiabiliby Modulo Theories},
+  journal   = {J. Autom. Reason.},
+  volume    = {49},
+  number    = {1},
+  pages     = {48-65},
+  year      = {2009			},
+  url       = {https://doi.org/10.1007/s10817-012-9251-8},
+  doi       = {10.1007/s10817-018-9455-7},
+  timestamp = {Wed, 02 Sep 2020 13:29:51 +0200},
+  biburl    = {https://dblp.org/rec/journals/jar/Wiedijk12.bib},
+  bibsource = {CAV , http://cpp.org/},
+  category  = { 量词实例化}
+  abbr      = {SMT}
+}
+
+@article{DBLP:journals/jar/Wiedijk12,
+  author    = {Andrew Joseph Reynolds，C Tinelli，A Goel，S Krstić},
+  title     = {	Finite Model Finding in SMT},
+  journal   = {J. Autom. Reason.},
+  volume    = {49},
+  number    = {1},
+  pages     = {48-65},
+  year      = {2013			},
+  url       = {https://doi.org/10.1007/s10817-012-9251-8},
+  doi       = {10.1007/s10817-018-9455-7},
+  timestamp = {Wed, 02 Sep 2020 13:29:51 +0200},
+  biburl    = {https://dblp.org/rec/journals/jar/Wiedijk12.bib},
+  bibsource = {CAV , http://cpp.org/},
+  category  = { 量词实例化}
+  abbr      = {SMT}
+}
+
+@article{DBLP:journals/jar/Wiedijk12,
+  author    = {Reynolds, Andrew，Deters, Morgan，Kuncak, Viktor，Tinelli, Cesare，Barrett, Clark W},
+  title     = {	Counterexample-Guided Quantifier Instantiation for Synthesis in SMT },
+  journal   = {J. Autom. Reason.},
+  volume    = {49},
+  number    = {1},
+  pages     = {48-65},
+  year      = {	2015		},
+  url       = {https://doi.org/10.1007/s10817-012-9251-8},
+  doi       = {10.1007/s10817-018-9455-7},
+  timestamp = {Wed, 02 Sep 2020 13:29:51 +0200},
+  biburl    = {https://dblp.org/rec/journals/jar/Wiedijk12.bib},
+  bibsource = {CAV , http://cpp.org/},
+  category  = { 量词实例化}
+  abbr      = {SMT}
+}
+
+@article{DBLP:journals/jar/Wiedijk12,
+  author    = {A Reynolds，T King，V Kuncak},
+  title     = {	Solving quantified linear arithmetic by counterexample-guided instantiation},
+  journal   = {J. Autom. Reason.},
+  volume    = {49},
+  number    = {1},
+  pages     = {48-65},
+  year      = {	2017		},
+  url       = {https://doi.org/10.1007/s10817-012-9251-8},
+  doi       = {10.1007/s10817-018-9455-7},
+  timestamp = {Wed, 02 Sep 2020 13:29:51 +0200},
+  biburl    = {https://dblp.org/rec/journals/jar/Wiedijk12.bib},
+  bibsource = { FMSD, http://cpp.org/},
+  category  = { 量词实例化}
+  abbr      = {SMT}
+}
+
+@article{DBLP:journals/jar/Wiedijk12,
+  author    = {LD Moura，Nikolaj Bjrner},
+  title     = {	Z3: An Efficient SMT Solver},
+  journal   = {J. Autom. Reason.},
+  volume    = {49},
+  number    = {1},
+  pages     = {48-65},
+  year      = {	2008		},
+  url       = {https://doi.org/10.1007/s10817-012-9251-8},
+  doi       = {10.1007/s10817-018-9455-7},
+  timestamp = {Wed, 02 Sep 2020 13:29:51 +0200},
+  biburl    = {https://dblp.org/rec/journals/jar/Wiedijk12.bib},
+  bibsource = { TACAS, http://cpp.org/},
+  category  = { 系统介绍}
+  abbr      = {SMT}
+}
+
+
+@article{DBLP:journals/jar/Wiedijk12,
+  author    = {T Bouton，DCBD Oliveira，D Déharbe，P Fontaine},
+  title     = {	veriT: An Open, Trustable and Efficient SMT-Solver},
+  journal   = {J. Autom. Reason.},
+  volume    = {49},
+  number    = {1},
+  pages     = {48-65},
+  year      = {	2009		},
+  url       = {https://doi.org/10.1007/s10817-012-9251-8},
+  doi       = {10.1007/s10817-018-9455-7},
+  timestamp = {Wed, 02 Sep 2020 13:29:51 +0200},
+  biburl    = {https://dblp.org/rec/journals/jar/Wiedijk12.bib},
+  bibsource = { CADE, http://cpp.org/},
+  category  = { 系统介绍}
+  abbr      = {SMT}
+}
+
+
+@article{DBLP:journals/jar/Wiedijk12,
+  author    = {M Deters，A Reynolds，T King，C Barrett，C Tinelli},
+  title     = {	CVC4 },
+  journal   = {J. Autom. Reason.},
+  volume    = {49},
+  number    = {1},
+  pages     = {48-65},
+  year      = {	2011		},
+  url       = {https://doi.org/10.1007/s10817-012-9251-8},
+  doi       = {10.1007/s10817-018-9455-7},
+  timestamp = {Wed, 02 Sep 2020 13:29:51 +0200},
+  biburl    = {https://dblp.org/rec/journals/jar/Wiedijk12.bib},
+  bibsource = { CAV, http://cpp.org/},
+  category  = { 系统介绍}
+  abbr      = {SMT}
+}
+
+@article{DBLP:journals/jar/Wiedijk12,
+  author    = {KRM Leino},
+  title     = {	Dafny: An Automatic Program Verifier for Functional Correctness },
+  journal   = {J. Autom. Reason.},
+  volume    = {49},
+  number    = {1},
+  pages     = {48-65},
+  year      = {		2010	},
+  url       = {https://doi.org/10.1007/s10817-012-9251-8},
+  doi       = {10.1007/s10817-018-9455-7},
+  timestamp = {Wed, 02 Sep 2020 13:29:51 +0200},
+  biburl    = {https://dblp.org/rec/journals/jar/Wiedijk12.bib},
+  bibsource = { LPAR, http://cpp.org/},
+  category  = { 	基于SMT的程序验证工具}
+  abbr      = {SMT}
+}
+
+@article{DBLP:journals/jar/Wiedijk12,
+  author    = {Jean-Christophe Filliâtre，A Paskevich},
+  title     = {	Why3 - Where Programs Meet Provers },
+  journal   = {J. Autom. Reason.},
+  volume    = {49},
+  number    = {1},
+  pages     = {48-65},
+  year      = {	2013		},
+  url       = {https://doi.org/10.1007/s10817-012-9251-8},
+  doi       = {10.1007/s10817-018-9455-7},
+  timestamp = {Wed, 02 Sep 2020 13:29:51 +0200},
+  biburl    = {https://dblp.org/rec/journals/jar/Wiedijk12.bib},
+  bibsource = { ESOP, http://cpp.org/},
+  category  = { 	基于SMT的程序验证工具}
+  abbr      = {SMT}
+}
+
+@article{DBLP:journals/jar/Wiedijk12,
+  author    = {Sascha Bhme，T Nipkow},
+  title     = {	Sledgehammer: Judgement Day },
+  journal   = {J. Autom. Reason.},
+  volume    = {49},
+  number    = {1},
+  pages     = {48-65},
+  year      = {	2010		},
+  url       = {https://doi.org/10.1007/s10817-012-9251-8},
+  doi       = {10.1007/s10817-018-9455-7},
+  timestamp = {Wed, 02 Sep 2020 13:29:51 +0200},
+  biburl    = {https://dblp.org/rec/journals/jar/Wiedijk12.bib},
+  bibsource = { IJCAR, http://cpp.org/},
+  category  = { 	证明重构 }
+  abbr      = {SMT}
+}
+
+@article{DBLP:journals/jar/Wiedijk12,
+  author    = {Sascha Bhme，T Weber},
+  title     = {	Fast LCF-Style Proof Reconstruction for Z3 },
+  journal   = {J. Autom. Reason.},
+  volume    = {49},
+  number    = {1},
+  pages     = {48-65},
+  year      = {	2010		},
+  url       = {https://doi.org/10.1007/s10817-012-9251-8},
+  doi       = {10.1007/s10817-018-9455-7},
+  timestamp = {Wed, 02 Sep 2020 13:29:51 +0200},
+  biburl    = {https://dblp.org/rec/journals/jar/Wiedijk12.bib},
+  bibsource = { ITP, http://cpp.org/},
+  category  = { 	证明重构}
+  abbr      = {SMT}
+}
+
+@article{DBLP:journals/jar/Wiedijk12,
+  author    = {M Armand，G Faure，B Grégoire，C Keller，L Thery，B Werner},
+  title     = {	A Modular Integration of SAT/SMT Solvers to Coq through Proof Witnesses},
+  journal   = {J. Autom. Reason.},
+  volume    = {49},
+  number    = {1},
+  pages     = {48-65},
+  year      = {		2011	},
+  url       = {https://doi.org/10.1007/s10817-012-9251-8},
+  doi       = {10.1007/s10817-018-9455-7},
+  timestamp = {Wed, 02 Sep 2020 13:29:51 +0200},
+  biburl    = {https://dblp.org/rec/journals/jar/Wiedijk12.bib},
+  bibsource = { CPP, http://cpp.org/},
+  category  = { 	证明重构}
+  abbr      = {SMT}
+}
+
+@article{DBLP:journals/jar/Wiedijk12,
+  author    = {JC Blanchette，Sascha Boennie，LC Paulson},
+  title     = {	Sledgehammer with SMT Solvers },
+  journal   = {J. Autom. Reason.},
+  volume    = {49},
+  number    = {1},
+  pages     = {48-65},
+  year      = {	2011		},
+  url       = {https://doi.org/10.1007/s10817-012-9251-8},
+  doi       = {10.1007/s10817-018-9455-7},
+  timestamp = {Wed, 02 Sep 2020 13:29:51 +0200},
+  biburl    = {https://dblp.org/rec/journals/jar/Wiedijk12.bib},
+  bibsource = { CADE, http://cpp.org/},
+  category  = { 	证明重构}
+  abbr      = {SMT}
+}
+
+
+@article{DBLP:journals/jar/Wiedijk12,
+  author    = {A Stump，D Oe，A Reynolds，L Hadarean，C Tinelli},
+  title     = {	SMT proof checking using a logical framework},
+  journal   = {J. Autom. Reason.},
+  volume    = {49},
+  number    = {1},
+  pages     = {48-65},
+  year      = {	2013		},
+  url       = {https://doi.org/10.1007/s10817-012-9251-8},
+  doi       = {10.1007/s10817-018-9455-7},
+  timestamp = {Wed, 02 Sep 2020 13:29:51 +0200},
+  biburl    = {https://dblp.org/rec/journals/jar/Wiedijk12.bib},
+  bibsource = { FMSD, http://cpp.org/},
+  category  = { 	证明重构}
+  abbr      = {SMT}
+}
+
+
+@article{DBLP:journals/jar/Wiedijk12,
+  author    = {F Brandl，F Brandt，M Eberl，C Geist},
+  title     = {	Proving the Incompatibility of Efficiency and Strategyproofness via SMT Solving },
+  journal   = {J. Autom. Reason.},
+  volume    = {49},
+  number    = {1},
+  pages     = {48-65},
+  year      = {	2018		},
+  url       = {https://doi.org/10.1007/s10817-012-9251-8},
+  doi       = {10.1007/s10817-018-9455-7},
+  timestamp = {Wed, 02 Sep 2020 13:29:51 +0200},
+  biburl    = {https://dblp.org/rec/journals/jar/Wiedijk12.bib},
+  bibsource = {JACM , http://cpp.org/},
+  category  = { 	其他应用}
+  abbr      = {SMT}
+}
