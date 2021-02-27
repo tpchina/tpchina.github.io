@@ -6,3 +6,7 @@ class: itp
 enable_right: true
 ---
 {% include sidebar.html %}
+
+<div class="publications">
+{% bibliography -f quantum %}
+</div>
