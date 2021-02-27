@@ -116,7 +116,9 @@ ITP:
     link: /itp/pl_and_compliers/
     category:
       -
-        name: C
+        name: CompCert(C)
+      -
+        name: AutoCorres(C)
       -
         name: Java
       -
