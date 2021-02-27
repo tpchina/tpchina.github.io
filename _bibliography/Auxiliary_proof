@@ -1,0 +1,276 @@
+@article{DBLP:journals/jar/Wiedijk12,
+  author    = { S Owre，N Shankar },
+  title     = {  	A brief overview of PVS },
+  journal   = {J. Autom. Reason.},
+  volume    = {49},
+  number    = {1},
+  pages     = {48-65},
+  year      = {   2008 },
+  url       = {https://doi.org/10.1007/s10817-012-9251-8},
+  doi       = {10.1007/s10817-018-9455-7},
+  timestamp = {Wed, 02 Sep 2020 13:29:51 +0200},
+  biburl    = {https://dblp.org/rec/journals/jar/Wiedijk12.bib},
+  bibsource = {    TPHOLs, http://cpp.org/},
+  category  = { 系统介绍 }
+  abbr      = {证明辅助工具}
+}
+
+@article{DBLP:journals/jar/Wiedijk12,
+  author    = { J Harrison },
+  title     = { 	HOL Light: An overview  },
+  journal   = {J. Autom. Reason.},
+  volume    = {49},
+  number    = {1},
+  pages     = {48-65},
+  year      = {  2009  },
+  url       = {https://doi.org/10.1007/s10817-012-9251-8},
+  doi       = {10.1007/s10817-018-9455-7},
+  timestamp = {Wed, 02 Sep 2020 13:29:51 +0200},
+  biburl    = {https://dblp.org/rec/journals/jar/Wiedijk12.bib},
+  bibsource = {   TPHOLs , http://cpp.org/},
+  category  = { 系统介绍 }
+  abbr      = {证明辅助工具}
+}
+
+@article{DBLP:journals/jar/Wiedijk12,
+  author    = { A Naumowicz，Artur Korni&#x，owicz },
+  title     = { 	A brief overview of Mizar },
+  journal   = {J. Autom. Reason.},
+  volume    = {49},
+  number    = {1},
+  pages     = {48-65},
+  year      = {   2009 },
+  url       = {https://doi.org/10.1007/s10817-012-9251-8},
+  doi       = {10.1007/s10817-018-9455-7},
+  timestamp = {Wed, 02 Sep 2020 13:29:51 +0200},
+  biburl    = {https://dblp.org/rec/journals/jar/Wiedijk12.bib},
+  bibsource = {   TPHOLs , http://cpp.org/},
+  category  = { 系统介绍 }
+  abbr      = {证明辅助工具}
+}
+
+@article{DBLP:journals/jar/Wiedijk12,
+  author    = { T Nipkow，LC Paulson，M Wenzel },
+  title     = { 	Isabelle/HOL - A Proof Assistant for Higher-Order Logic },
+  journal   = {J. Autom. Reason.},
+  volume    = {49},
+  number    = {1},
+  pages     = {48-65},
+  year      = {  2008  },
+  url       = {https://doi.org/10.1007/s10817-012-9251-8},
+  doi       = {10.1007/s10817-018-9455-7},
+  timestamp = {Wed, 02 Sep 2020 13:29:51 +0200},
+  biburl    = {https://dblp.org/rec/journals/jar/Wiedijk12.bib},
+  bibsource = {   LNCS , http://cpp.org/},
+  category  = { 系统介绍 }
+  abbr      = {证明辅助工具}
+}
+
+@article{DBLP:journals/jar/Wiedijk12,
+  author    = {LD Moura，S Kong，J Avigad，FV Doorn，JV Raumer  },
+  title     = {	The Lean Theorem Prover  },
+  journal   = {J. Autom. Reason.},
+  volume    = {49},
+  number    = {1},
+  pages     = {48-65},
+  year      = {  2015  },
+  url       = {https://doi.org/10.1007/s10817-012-9251-8},
+  doi       = {10.1007/s10817-018-9455-7},
+  timestamp = {Wed, 02 Sep 2020 13:29:51 +0200},
+  biburl    = {https://dblp.org/rec/journals/jar/Wiedijk12.bib},
+  bibsource = {   CADE , http://cpp.org/},
+  category  = { 系统介绍 }
+  abbr      = {证明辅助工具}
+}
+
+@article{DBLP:journals/jar/Wiedijk12,
+  author    = {M Wenzel  },
+  title     = {	Isar - A Generic Interpretative Approach to Readable Formal Proof Documents   },
+  journal   = {J. Autom. Reason.},
+  volume    = {49},
+  number    = {1},
+  pages     = {48-65},
+  year      = {  1999  },
+  url       = {https://doi.org/10.1007/s10817-012-9251-8},
+  doi       = {10.1007/3-540-48256-3_12},
+  timestamp = {Wed, 02 Sep 2020 13:29:51 +0200},
+  biburl    = {https://dblp.org/rec/journals/jar/Wiedijk12.bib},
+  bibsource = {   TPHOLs , http://cpp.org/},
+  category  = { 	证明和策略语言 }
+  abbr      = {证明辅助工具}
+}
+
+@article{DBLP:journals/jar/Wiedijk12,
+  author    = {  F Kammüller，M Wenzel，LC Paulson},
+  title     = { 	Locales - A Sectioning Concept for Isabelle  },
+  journal   = {J. Autom. Reason.},
+  volume    = {49},
+  number    = {1},
+  pages     = {48-65},
+  year      = { 1999   },
+  url       = {https://doi.org/10.1007/s10817-012-9251-8},
+  doi       = {10.1007/s10817-018-9455-7},
+  timestamp = {Wed, 02 Sep 2020 13:29:51 +0200},
+  biburl    = {https://dblp.org/rec/journals/jar/Wiedijk12.bib},
+  bibsource = {   TPHOLs , http://cpp.org/},
+  category  = { 	证明和策略语言}
+  abbr      = {证明辅助工具}
+}
+
+@article{DBLP:journals/jar/Wiedijk12,
+  author    = { A Stampoulis，Z Shao },
+  title     = { 	VeriML: typed computation of logical terms inside a language with effects  },
+  journal   = {J. Autom. Reason.},
+  volume    = {49},
+  number    = {1},
+  pages     = {48-65},
+  year      = {  2010  },
+  url       = {https://doi.org/10.1145/1932681.1863591},
+  doi       = {10.1145/1932681.1863591},
+  timestamp = {Wed, 02 Sep 2020 13:29:51 +0200},
+  biburl    = {https://dblp.org/rec/journals/jar/Wiedijk12.bib},
+  bibsource = {   ICFP , http://cpp.org/},
+  category  = { 	证明和策略语言 }
+  abbr      = {证明辅助工具}
+}
+
+@article{DBLP:journals/jar/Wiedijk12,
+  author    = { A Stampoulis，Z Shao },
+  title     = {  	AUTO2, A Saturation-Based Heuristic Prover for Higher-Order Logic},
+  journal   = {J. Autom. Reason.},
+  volume    = {49},
+  number    = {1},
+  pages     = {48-65},
+  year      = { 2016   },
+  url       = {https://doi.org/10.1145/1932681.1863591},
+  doi       = {10.1145/1932681.1863591},
+  timestamp = {Wed, 02 Sep 2020 13:29:51 +0200},
+  biburl    = {https://dblp.org/rec/journals/jar/Wiedijk12.bib},
+  bibsource = {   ITP , http://cpp.org/},
+  category  = { 	证明和策略语言 }
+  abbr      = {证明辅助工具}
+}
+
+
+
+@article{DBLP:journals/jar/Wiedijk12,
+  author    = { D Matichuk，T Murray，M Wenzel },
+  title     = {  	Eisbach: A Proof Method Language for Isabelle},
+  journal   = {J. Autom. Reason.},
+  volume    = {49},
+  number    = {1},
+  pages     = {48-65},
+  year      = {   2016 },
+  url       = {https://doi.org/10.1007/s10817-015-9360-2},
+  doi       = {10.1007/s10817-015-9360-2},
+  timestamp = {Wed, 02 Sep 2020 13:29:51 +0200},
+  biburl    = {https://dblp.org/rec/journals/jar/Wiedijk12.bib},
+  bibsource = {  JAR  , http://cpp.org/},
+  category  = { 	证明和策略语言}
+  abbr      = {证明辅助工具}
+}
+
+@article{DBLP:journals/jar/Wiedijk12,
+  author    = { CK Hur，G Neis，D Dreyer，V Vafeiadis },
+  title     = {  	The Power of Parameterization in Coinductive Proof},
+  journal   = {J. Autom. Reason.},
+  volume    = {49},
+  number    = {1},
+  pages     = {48-65},
+  year      = {   2013 },
+  url       = {https://doi.org/10.1145/2480359.2429093},
+  doi       = {10.1145/2480359.2429093},
+  timestamp = {Wed, 02 Sep 2020 13:29:51 +0200},
+  biburl    = {https://dblp.org/rec/journals/jar/Wiedijk12.bib},
+  bibsource = { POPL   , http://cpp.org/},
+  category  = { 	归纳和余归纳 }
+  abbr      = {证明辅助工具}
+}
+
+@article{DBLP:journals/jar/Wiedijk12,
+  author    = { J Biendarra，JC Blanchette，A Bouzy，M Desharnais，M Fleury，J Hölzl，O Kunčar，A Lochbihler，F Meier，L Panny },
+  title     = { 	Foundational (Co)datatypes and (Co)recursion for Higher-Order Logic },
+  journal   = {J. Autom. Reason.},
+  volume    = {49},
+  number    = {1},
+  pages     = {48-65},
+  year      = {  2017  },
+  url       = {https://doi.org/10.1007/s10817-012-9251-8},
+  doi       = {10.1007/s10817-018-9455-7},
+  timestamp = {Wed, 02 Sep 2020 13:29:51 +0200},
+  biburl    = {https://dblp.org/rec/journals/jar/Wiedijk12.bib},
+  bibsource = {  FroCos  , http://cpp.org/},
+  category  = { 	归纳和余归纳 }
+  abbr      = {证明辅助工具}
+}
+
+@article{DBLP:journals/jar/Wiedijk12,
+  author    = { D Traytel，A Popescu，JC Blanchette },
+  title     = { 	Foundational nonuniform (Co)datatypes for higher-order logic },
+  journal   = {J. Autom. Reason.},
+  volume    = {49},
+  number    = {1},
+  pages     = {48-65},
+  year      = { 2017   },
+  url       = {https://doi.org/10.1109/LICS.2012.75},
+  doi       = {10.1109/LICS.2012.75},
+  timestamp = {Wed, 02 Sep 2020 13:29:51 +0200},
+  biburl    = {https://dblp.org/rec/journals/jar/Wiedijk12.bib},
+  bibsource = {   LICS , http://cpp.org/},
+  category  = { 	归纳和余归纳 }
+  abbr      = {证明辅助工具}
+}
+
+@article{DBLP:journals/jar/Wiedijk12,
+  author    = {  W Makarius},
+  title     = { 	Asynchronous User Interaction and Tool Integration in Isabelle/PIDE  },
+  journal   = {J. Autom. Reason.},
+  volume    = {49},
+  number    = {1},
+  pages     = {48-65},
+  year      = { 2014   },
+  url       = {https://doi.org/10.1007/s10817-012-9251-8},
+  doi       = {10.1007/s10817-018-9455-7},
+  timestamp = {Wed, 02 Sep 2020 13:29:51 +0200},
+  biburl    = {https://dblp.org/rec/journals/jar/Wiedijk12.bib},
+  bibsource = {   ITP , http://cpp.org/},
+  category  = { 用户界面 }
+  abbr      = {证明辅助工具}
+}
+
+
+@article{DBLP:journals/jar/Wiedijk12,
+  author    = {  J Breitner},
+  title     = {  	Visual theorem proving with the incredible proof machine},
+  journal   = {J. Autom. Reason.},
+  volume    = {49},
+  number    = {1},
+  pages     = {48-65},
+  year      = {  2016  },
+  url       = {https://doi.org/10.1007/s10817-012-9251-8},
+  doi       = {10.1007/s10817-018-9455-7},
+  timestamp = {Wed, 02 Sep 2020 13:29:51 +0200},
+  biburl    = {https://dblp.org/rec/journals/jar/Wiedijk12.bib},
+  bibsource = {  ITP , http://cpp.org/},
+  category  = { 用户界面 }
+  abbr      = {证明辅助工具}
+}
+
+
+@article{DBLP:journals/jar/Wiedijk12,
+  author    = { M Wenzel },
+  title     = { 	Interaction with Formal Mathematical Documents in Isabelle/PIDE },
+  journal   = {J. Autom. Reason.},
+  volume    = {49},
+  number    = {1},
+  pages     = {48-65},
+  year      = {  2019  },
+  url       = {https://doi.org/10.1007/978-3-030-23250-4_1},
+  doi       = {10.1007/978-3-030-23250-4_1},
+  timestamp = {Wed, 02 Sep 2020 13:29:51 +0200},
+  biburl    = {https://dblp.org/rec/journals/jar/Wiedijk12.bib},
+  bibsource = {   CICM , http://cpp.org/},
+  category  = { 用户界面 }
+  abbr      = {证明辅助工具}
+}
+
