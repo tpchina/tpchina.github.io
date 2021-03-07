@@ -280,13 +280,16 @@ footer.sticky-bottom {
   color: #000000;
 }
 
-// .left_sidebar ul li {
-//     padding: 6px 8px 6px 16px;
-//     text-decoration: none;
-//     font-size: 10px;
-//     color: #2196F3;
-//     display: block;
-// }
+
+@media only screen and (max-width: 600px){
+  .left_sidebar {
+    display: none;
+  }
+  
+  .right_sidebar {
+    display: none;
+  }
+}
 
 .right_sidebar ul li:hover {
   color: #caddec;
