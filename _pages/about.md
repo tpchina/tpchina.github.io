@@ -1,6 +1,6 @@
 ---
 layout: about
-title: 定理证明社区
+title: 定理证明介绍
 permalink: /
 # description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
 
@@ -17,6 +17,10 @@ social: true
 Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
+<!--
+中国定理证明开放社区是国内定理证明爱好者、学者、研究人员的交流平台。开放社区会定期组织线上、线下活动，供各社区成员交流在定理证明领域的经验、收获和新成果，社区也会邀请学者向社区成员介绍相关领域的新突破、新理论、新工具、新动向。广大定理证明爱好者可以通过社区的官网获取定理证明的相关资源，其中收录了Coq、Isabelle、Lean等定理证明工具的入门资料，定理证明项目信息与检索，以及相关学术论文的索引。
+-->
+
 定理证明是指使用严格的逻辑语言描述数学定义和数学证明，并在计算机的辅助下验证数学定理的正确性。定理证明可用于验证计算机系统的可靠性和安全性：首先将待验证的软硬件系统和需要满足的要求表达为数学命题，再利用定理证明工具检验该数学命题是否正确。相比于传统的基于测试的可靠性保障方法，定理证明技术会考虑所有边缘情况，完全排除一整类的潜在错误。
 定理证明又可分为自动定理证明和交互式定理证明：
 -	自动定理证明基于SAT、SMT、一阶定理证明等算法，试图自动判定逻辑命题的正确性。涉及的逻辑命题可能包含量词、未解释函数、线性和非线性算数、数组、位向量等等。自动定理证明技术在硬件和软件验证中有着广泛的应用。

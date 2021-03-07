@@ -54,7 +54,7 @@ google_analytics: UA-XXXXXXXXX # out your google-analytics code
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: TPChina  # your blog must have a name for it to show up in the nav bar
+blog_name: 社区新闻  # your blog must have a name for it to show up in the nav bar
 blog_description: 
 permalink: /blog/:year/:title/
 
