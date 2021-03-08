@@ -252,9 +252,9 @@ footer.sticky-bottom {
   width: 140px;
   position: fixed;
   z-index: 1;
-  top: 150px;
-  left: 10%;
-  background: #fff;
+  top: 2cm;
+  left: 5%;
+  background-color: transparent;
   overflow-x: hidden;
   padding: 8px 0;
   font-family: "微软雅黑";
@@ -265,9 +265,9 @@ footer.sticky-bottom {
   width: 130px;
   position: fixed;
   z-index: 1;
-  top: 150px;
-  right: 10%;
-  background: #fff;
+  top: 2cm;
+  right: 5%;
+  background-color: transparent;
   overflow-x: hidden;
   padding: 8px 0;
 }
@@ -281,7 +281,7 @@ footer.sticky-bottom {
 }
 
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width:28cm){
   .left_sidebar {
     display: none;
   }
