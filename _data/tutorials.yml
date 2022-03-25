@@ -113,6 +113,9 @@ courses:
   
 websites:
   -
+    name: Machine Logic
+    url: https://lawrencecpaulson.github.io/
+  -
     name: Isabelle Quick Access Links
     url: https://isabelle.systems
 
