@@ -1,0 +1,3067 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<title>TPChina | 算法与数据结构</title>
+<meta name="description" content="中国定理证明社区
+">
+
+<!-- Bootstrap & MDB -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.17.0/css/mdb.min.css" integrity="sha256-/SwJ2GDcEt5382i8zqDwl36VJGECxEoIcBIuoLmLR4g=" crossorigin="anonymous" />
+
+<!-- Fonts & Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"  integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+
+<!-- Styles -->
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<link rel="canonical" href="/itp/algo_and_ds/">
+
+<!-- Open Graph -->
+
+
+  </head>
+
+  <body class="fixed-top-nav ">
+
+    <!-- Header -->
+
+    <header>
+
+    <!-- Nav Bar -->
+    <nav id="navbar" class="navbar navbar-light bg-white navbar-expand-sm fixed-top">
+    <div class="container">
+      <!--  -->
+        <!--  -->
+        <!-- <a class="navbar-brand title font-weight-lighter" href="/"><span class="font-weight-bold">TPChina</span> TPChina</a> -->
+      <!--  -->
+      <img src="/logo.jpg" height="60">
+      <!-- Navbar Toogle -->
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+          <!-- About -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/">
+              首页
+              
+            </a>
+          </li>
+          
+          <!-- Blog -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/blog/">
+              新闻
+              
+            </a>
+          </li>
+          
+          <!-- Other pages -->
+          <!-- 
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/papers_intro/">
+                论文
+                
+              </a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/readings/">
+                资料
+                
+              </a>
+          </li>
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/projects/">
+                项目
+                
+              </a>
+          </li>
+          
+           -->
+          <li class="nav-item">
+            <a class="nav-link" href="/papers_intro/">
+              论文
+              
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/readings/">
+              资料
+              
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/projects/">
+              项目
+              
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about/">
+              关于
+              
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+</header>
+
+
+    <!-- Content -->
+
+    <div class="container mt-5">
+      <div class="post">
+
+  <header class="post-header">
+    <h2 class="post-title"><span class="font-weight-bold">算法与数据结构</span></h2>
+    <p class="post-description"></p>
+  </header>
+
+  <article>
+    <div class="left_sidebar">
+    
+    <h5><strong>自动定理证明</strong></h5>
+    
+    
+        
+            <p><a href="/atp/sat/">SAT求解</a></p>
+        
+        
+        
+            <p><a href="/atp/smt/">SMT求解</a></p>
+        
+        
+        
+            <p><a href="/atp/first_order/">一阶逻辑求解</a></p>
+        
+        
+		
+    <h5><strong>交互式定理证明</strong></h5>
+    
+    
+    
+        
+            <p><a href="/itp/history/">概述和历史</a></p>
+        
+        
+        
+            <p><a href="/itp/assistants/">证明辅助工具</a></p>
+        
+        
+        
+            <p><a href="/itp/math/">形式化数学</a></p>
+        
+        
+        
+            <p><a href="/itp/algo_and_ds/" style="color:blue">算法与数据结构</a></p>
+        
+        
+        
+            <p><a href="/itp/pl_and_compliers/">程序语言和编译器</a></p>
+        
+        
+        
+            <p><a href="/itp/pv_logic/">程序验证逻辑</a></p>
+        
+        
+        
+            <p><a href="/itp/op_system/">操作系统验证</a></p>
+        
+        
+        
+            <p><a href="/itp/hardware_verification">硬件验证</a></p>
+        
+        
+        
+            <p><a href="/itp/block_chain">区块链验证</a></p>
+        
+        
+        
+            <p><a href="/itp/hybrid_system">混成系统验证</a></p>
+        
+        
+        
+            <p><a href="/itp/quantum">量子系统验证</a></p>
+        
+        
+</div>
+
+<div class="right_sidebar">
+    <h5><strong>目录</strong></h5>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        <p>概述</p>
+    
+        <p>验证框架</p>
+    
+        <p>搜索和排序</p>
+    
+        <p>数据结构</p>
+    
+        <p>图论算法</p>
+    
+        <p>其它算法</p>
+    
+        <p>时间复杂度的验证</p>
+    
+        <p>随机算法的验证</p>
+    
+        <p>模拟检验算法的验证</p>
+    
+        <p>人工智能算法的验证</p>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</div>
+
+<div class="publications">
+
+<h2 class="year">概述</h2>
+<ol class="bibliography"><li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">ATVA</abbr>
+    
+  
+  </div>
+
+  <div id="NipkowEH-ATVA20" class="col-sm-8">
+    
+      <span class="title">Verified Textbook Algorithms. A Biased Survey</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Nipkow, Tobias,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Eberl, Manuel,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Haslbeck, Maximilian P. L.
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In ATVA 2020, Automated Technology for Verification and Analysis</em>
+      
+      
+        2020
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li></ol>
+
+
+<h2 class="year">验证框架</h2>
+<ol class="bibliography"><li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">ICFP</abbr>
+    
+  
+  </div>
+
+  <div id="10.1145/1863543.1863590" class="col-sm-8">
+    
+      <span class="title">Program Verification through Characteristic Formulae</span>
+      <span class="author">
+        
+          
+            
+              Charguéraud, Arthur
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Proceedings of the 15th ACM SIGPLAN International Conference on Functional Programming</em>
+      
+      
+        2010
+      
+      </span>
+    
+
+    <span class="links">
+    
+      [<a class="abstract">Abs</a>]
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+    <span class="abstract hidden">
+      <p>This paper describes CFML, the first program verification tool based on characteristic formulae. Given the source code of a pure Caml program, this tool generates a logical formula that implies any valid post-condition for that program. One can then prove that the program satisfies a given specification by reasoning interactively about the characteristic formula using a proof assistant such as Coq. Our characteristic formulae improve over Honda et al’s total characteristic assertion pairs in that they are expressible in standard higher-order logic, allowing to exploit them in practice to verify programs using existing proof assistants. Our technique has been applied to formally verify more than half of the content of Okasaki’s Purely Functional Data Structures reference book</p>
+    </span>
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">ICFP</abbr>
+    
+  
+  </div>
+
+  <div id="10.1145/2034773.2034828" class="col-sm-8">
+    
+      <span class="title">Characteristic Formulae for the Verification of Imperative Programs</span>
+      <span class="author">
+        
+          
+            
+              Charguéraud, Arthur
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Proceedings of the 16th ACM SIGPLAN International Conference on Functional Programming</em>
+      
+      
+        2011
+      
+      </span>
+    
+
+    <span class="links">
+    
+      [<a class="abstract">Abs</a>]
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+    <span class="abstract hidden">
+      <p>In previous work, we introduced an approach to program verification based on characteristic formulae. The approach consists of generating a higher-order logic formula from the source code of a program. This characteristic formula is constructed in such a way that it gives a sound and complete description of the semantics of that program. The formula can thus be exploited in an interactive proof assistant to formally verify that the program satisfies a particular specification.This previous work was, however, only concerned with purely-functional programs. In the present paper, we describe the generalization of characteristic formulae to an imperative programming language. In this setting, characteristic formulae involve specifications expressed in the style of Separation Logic. They also integrate the frame rule, which enables local reasoning. We have implemented a tool based on characteristic formulae. This tool, called CFML, supports the verification of imperative Caml programs using the Coq proof assistant. Using CFML, we have formally verified nontrivial imperative algorithms, as well as CPS functions, higher-order iterators, and programs involving higher-order stores.</p>
+    </span>
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">ITP</abbr>
+    
+  
+  </div>
+
+  <div id="10.1007/978-3-642-39634-2_9" class="col-sm-8">
+    
+      <span class="title">Automatic Data Refinement</span>
+      <span class="author">
+        
+          
+            
+              Lammich, Peter
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Interactive Theorem Proving</em>
+      
+      
+        2013
+      
+      </span>
+    
+
+    <span class="links">
+    
+      [<a class="abstract">Abs</a>]
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+    <span class="abstract hidden">
+      <p>We present the Autoref tool for Isabelle/HOL, which automatically refines algorithms specified over abstract concepts like maps and sets to algorithms over concrete implementations like red-black-trees, and produces a refinement theorem. It is based on ideas borrowed from relational parametricity due to Reynolds and Wadler.</p>
+    </span>
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">ITP</abbr>
+    
+  
+  </div>
+
+  <div id="10.1007/s10817-017-9437-1" class="col-sm-8">
+    
+      <span class="title">Refinement to Imperative HOL</span>
+      <span class="author">
+        
+          
+            
+              Lammich, Peter
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>J. Autom. Reason.</em>
+      
+      
+        2019
+      
+      </span>
+    
+
+    <span class="links">
+    
+      [<a class="abstract">Abs</a>]
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+    <span class="abstract hidden">
+      <p>Many algorithms can be implemented most efficiently with imperative data structures. This paper presents Sepref, a stepwise refinement based tool chain for the verification of imperative algorithms in Isabelle/HOL. As a back end we use imperative HOL, which allows to generate verified imperative code. On top of imperative HOL, we develop a separation logic framework with powerful proof tactics. We use this framework to verify basic imperative data structures and to define a refinement calculus between imperative and functional programs. We provide a tool to automatically synthesize a concrete imperative program and a refinement proof from an abstract functional program, selecting implementations of abstract data types according to a user-provided configuration. As a front end to describe the abstract programs, we use the Isabelle Refinement Framework, for which many algorithms have already been formalized. Our tool chain is complemented by a large selection of verified imperative data structures. We have used Sepref for several verification projects, resulting in efficient verified implementations that are competitive with unverified ones in Java or C$++$++.</p>
+    </span>
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">JAR</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:journals/jar/LammichL19" class="col-sm-8">
+    
+      <span class="title">Automatic Refinement to Efficient Data Structures: A Comparison
+                of Two Approaches</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Lammich, Peter,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Lochbihler, Andreas
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>J. Autom. Reason.</em>
+      
+      
+        2019
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">CPP</abbr>
+    
+  
+  </div>
+
+  <div id="10.1145/2854065.2854068" class="col-sm-8">
+    
+      <span class="title">Higher-Order Representation Predicates in Separation Logic</span>
+      <span class="author">
+        
+          
+            
+              Charguéraud, Arthur
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Proceedings of the 5th ACM SIGPLAN Conference on Certified Programs and Proofs</em>
+      
+      
+        2016
+      
+      </span>
+    
+
+    <span class="links">
+    
+      [<a class="abstract">Abs</a>]
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+    <span class="abstract hidden">
+      <p> In Separation Logic, representation predicates are used to describe mutable data structures, by establishing a relationship between the entry point of the structure, the piece of heap over which this structure spans, and the logical model associated with the structure. When a data structure is polymorphic, such as in the case of a container, its representation predicate needs to be parameterized not just by the type of the items stored in the structure, but also by the representation predicates associated with these items. Such higher-order representation predicates can be used in particular to control whether containers should own their items. In this paper, we present, through a collection of practical examples, solutions to the challenges associated with reasoning about accesses into data structures that own their elements. </p>
+    </span>
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">JFP</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:journals/jfp/BreitnerSLRWCW21" class="col-sm-8">
+    
+      <span class="title">Ready, Set, Verify! Applying hs-to-coq to real-world Haskell code</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Breitner, Joachim,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Spector-Zabusky, Antal,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Li, Yao,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Rizkallah, Christine,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Wiegley, John,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Cohen, Joshua,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Weirich, Stephanie
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>J. Funct. Program.</em>
+      
+      
+        2021
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">TACAS</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/tacas/Zhan18" class="col-sm-8">
+    
+      <span class="title">Efficient Verification of Imperative Programs Using Auto2</span>
+      <span class="author">
+        
+          
+            
+              Zhan, Bohua
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Tools and Algorithms for the Construction and Analysis of Systems
+               - 24th International Conference, TACAS 2018, Held as Part of the
+               European Joint Conferences on Theory and Practice of Software, ETAPS
+               2018, Thessaloniki, Greece, April 14-20, 2018, Proceedings, Part I</em>
+      
+      
+        2018
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li></ol>
+
+
+<h2 class="year">搜索和排序</h2>
+<ol class="bibliography"><li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">IJCAR</abbr>
+    
+  
+  </div>
+
+  <div id="10.1007/978-3-030-51054-1_18" class="col-sm-8">
+    
+      <span class="title">Efficient Verified Implementation of Introsort and Pdqsort</span>
+      <span class="author">
+        
+          
+            
+              Lammich, Peter
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Automated Reasoning</em>
+      
+      
+        2020
+      
+      </span>
+    
+
+    <span class="links">
+    
+      [<a class="abstract">Abs</a>]
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+    <span class="abstract hidden">
+      <p>Sorting algorithms are an important part of most standard libraries, and both, their correctness and efficiency is crucial for many applications.</p>
+    </span>
+    
+  </div>
+</div>
+</li></ol>
+
+
+<h2 class="year">数据结构</h2>
+<ol class="bibliography"><li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">ITP</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/itp/Nipkow16" class="col-sm-8">
+    
+      <span class="title">Automatic Functional Correctness Proofs for Functional Search Trees</span>
+      <span class="author">
+        
+          
+            
+              Nipkow, Tobias
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Interactive Theorem Proving - 7th International Conference, ITP
+               2016, Nancy, France, August 22-25, 2016, Proceedings</em>
+      
+      
+        2016
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">APLAS</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/aplas/Nipkow17" class="col-sm-8">
+    
+      <span class="title">Verified Root-Balanced Trees</span>
+      <span class="author">
+        
+          
+            
+              Nipkow, Tobias
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Programming Languages and Systems - 15th Asian Symposium, APLAS
+               2017, Suzhou, China, November 27-29, 2017, Proceedings</em>
+      
+      
+        2017
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">ITP</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/itp/LammichN19" class="col-sm-8">
+    
+      <span class="title">Proof Pearl: Purely Functional, Simple and Efficient Priority Search
+               Trees and Applications to Prim and Dijkstra</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Lammich, Peter,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Nipkow, Tobias
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In 10th International Conference on Interactive Theorem Proving, ITP
+               2019, September 9-12, 2019, Portland, OR, USA</em>
+      
+      
+        2019
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">CPP</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/cpp/NipkowS20" class="col-sm-8">
+    
+      <span class="title">Proof pearl: Braun trees</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Nipkow, Tobias,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Sewell, Thomas
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Proceedings of the 9th ACM SIGPLAN International Conference on
+               Certified Programs and Proofs, CPP 2020, New Orleans, LA, USA, January
+               20-21, 2020</em>
+      
+      
+        2020
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li></ol>
+
+
+<h2 class="year">图论算法</h2>
+<ol class="bibliography"><li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">ITP</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/itp/Lammich14" class="col-sm-8">
+    
+      <span class="title">Verified Efficient Implementation of Gabow’s Strongly Connected Component
+               Algorithm</span>
+      <span class="author">
+        
+          
+            
+              Lammich, Peter
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Interactive Theorem Proving - 5th International Conference, ITP
+               2014, Held as Part of the Vienna Summer of Logic, VSL 2014, Vienna,
+               Austria, July 14-17, 2014. Proceedings</em>
+      
+      
+        2014
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">CPP</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/cpp/LammichN15" class="col-sm-8">
+    
+      <span class="title">A Framework for Verifying Depth-First Search Algorithms</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Lammich, Peter,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Neumann, René
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Proceedings of the 2015 Conference on Certified Programs and Proofs,
+               CPP 2015, Mumbai, India, January 15-17, 2015</em>
+      
+      
+        2015
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">MFCS</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/mfcs/AbdulazizMN19" class="col-sm-8">
+    
+      <span class="title">Trustworthy Graph Algorithms (Invited Talk)</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Abdulaziz, Mohammad,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Mehlhorn, Kurt,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Nipkow, Tobias
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In 44th International Symposium on Mathematical Foundations of Computer
+               Science, MFCS 2019, August 26-30, 2019, Aachen, Germany</em>
+      
+      
+        2019
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">ITP</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/itp/GueneauJCP19" class="col-sm-8">
+    
+      <span class="title">Formal Proof and Analysis of an Incremental Cycle Detection Algorithm</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Guéneau, Armaël,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Jourdan, Jacques-Henri,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Charguéraud, Arthur,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Pottier, François
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In 10th International Conference on Interactive Theorem Proving, ITP
+               2019, September 9-12, 2019, Portland, OR, USA</em>
+      
+      
+        2019
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">JAR</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:journals/jar/LammichS19" class="col-sm-8">
+    
+      <span class="title">Formalizing Network Flow Algorithms: A Refinement Approach in Isabelle/HOL</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Lammich, Peter,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Sefidgar, S. Reza
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>J. Autom. Reason.</em>
+      
+      
+        2019
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">ITP</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/itp/ChenCLMT19" class="col-sm-8">
+    
+      <span class="title">Formal Proofs of Tarjan’s Strongly Connected Components Algorithm
+               in Why3, Coq and Isabelle</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Chen, Ran,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Cohen, Cyril,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Lévy, Jean-Jacques,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Merz, Stephan,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Théry, Laurent
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In 10th International Conference on Interactive Theorem Proving, ITP
+               2019, September 9-12, 2019, Portland, OR, USA</em>
+      
+      
+        2019
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">OOPSLA</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:journals/pacmpl/WangCMH19" class="col-sm-8">
+    
+      <span class="title">Certifying graph-manipulating C programs via localizations within
+               data structures</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Wang, Shengyi,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Cao, Qinxiang,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Mohan, Anshuman,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Hobor, Aquinas
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>Proc. ACM Program. Lang.</em>
+      
+      
+        2019
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li></ol>
+
+
+<h2 class="year">其它算法</h2>
+<ol class="bibliography"><li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">JAR</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:journals/jar/Blanchette09" class="col-sm-8">
+    
+      <span class="title">Proof Pearl: Mechanizing the Textbook Proof of Huffman’s Algorithm</span>
+      <span class="author">
+        
+          
+            
+              Blanchette, Jasmin Christian
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>J. Autom. Reason.</em>
+      
+      
+        2009
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">ITP</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/itp/WimmerHN18" class="col-sm-8">
+    
+      <span class="title">Verified Memoization and Dynamic Programming</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Wimmer, Simon,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Hu, Shuwei,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Nipkow, Tobias
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Interactive Theorem Proving - 9th International Conference, ITP
+               2018, Held as Part of the Federated Logic Conference, FloC 2018, Oxford,
+               UK, July 9-12, 2018, Proceedings</em>
+      
+      
+        2018
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">IJCAR</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/cade/RauN20" class="col-sm-8">
+    
+      <span class="title">Verification of Closest Pair of Points Algorithms</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Rau, Martin,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Nipkow, Tobias
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Automated Reasoning - 10th International Joint Conference, IJCAR
+               2020, Paris, France, July 1-4, 2020, Proceedings, Part II</em>
+      
+      
+        2020
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li></ol>
+
+
+<h2 class="year">时间复杂度的验证</h2>
+<ol class="bibliography"><li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">ESOP</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/esop/Atkey10" class="col-sm-8">
+    
+      <span class="title">Amortised Resource Analysis with Separation Logic</span>
+      <span class="author">
+        
+          
+            
+              Atkey, Robert
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Programming Languages and Systems, 19th European Symposium on Programming,
+               ESOP 2010, Held as Part of the Joint European Conferences on Theory
+               and Practice of Software, ETAPS 2010, Paphos, Cyprus, March 20-28,
+               2010. Proceedings</em>
+      
+      
+        2010
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">JAR</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:journals/jar/Eberl17" class="col-sm-8">
+    
+      <span class="title">Proving Divide and Conquer Complexities in Isabelle/HOL</span>
+      <span class="author">
+        
+          
+            
+              Eberl, Manuel
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>J. Autom. Reason.</em>
+      
+      
+        2017
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">ESOP</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/esop/GueneauCP18" class="col-sm-8">
+    
+      <span class="title">A Fistful of Dollars: Formalizing Asymptotic Complexity Claims via
+               Deductive Program Verification</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Guéneau, Armaël,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Charguéraud, Arthur,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Pottier, François
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Programming Languages and Systems - 27th European Symposium on Programming,
+               ESOP 2018, Held as Part of the European Joint Conferences on Theory
+               and Practice of Software, ETAPS 2018, Thessaloniki, Greece, April
+               14-20, 2018, Proceedings</em>
+      
+      
+        2018
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">IJCAR</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/cade/ZhanH18" class="col-sm-8">
+    
+      <span class="title">Verifying Asymptotic Time Complexity of Imperative Programs in Isabelle</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Zhan, Bohua,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Haslbeck, Maximilian P. L.
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Automated Reasoning - 9th International Joint Conference, IJCAR
+               2018, Held as Part of the Federated Logic Conference, FloC 2018, Oxford,
+               UK, July 14-17, 2018, Proceedings</em>
+      
+      
+        2018
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">ITP</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/itp/Nipkow15" class="col-sm-8">
+    
+      <span class="title">Amortized Complexity Verified</span>
+      <span class="author">
+        
+          
+            
+              Nipkow, Tobias
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Interactive Theorem Proving - 6th International Conference, ITP
+               2015, Nanjing, China, August 24-27, 2015, Proceedings</em>
+      
+      
+        2015
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">JAR</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:journals/jar/ChargueraudP19" class="col-sm-8">
+    
+      <span class="title">Verifying the Correctness and Amortized Complexity of a Union-Find
+               Implementation in Separation Logic with Time Credits</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Charguéraud, Arthur,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Pottier, François
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>J. Autom. Reason.</em>
+      
+      
+        2019
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">ITP</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/itp/HaslbeckL19" class="col-sm-8">
+    
+      <span class="title">Refinement with Time - Refining the Run-Time of Algorithms in Isabelle/HOL</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Haslbeck, Maximilian P. L.,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Lammich, Peter
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In 10th International Conference on Interactive Theorem Proving, ITP
+               2019, September 9-12, 2019, Portland, OR, USA</em>
+      
+      
+        2019
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li></ol>
+
+
+<h2 class="year">随机算法的验证</h2>
+<ol class="bibliography"><li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">ESOP</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/esop/EberlHN15" class="col-sm-8">
+    
+      <span class="title">A Verified Compiler for Probability Density Functions</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Eberl, Manuel,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Hölzl, Johannes,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Nipkow, Tobias
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Programming Languages and Systems - 24th European Symposium on Programming,
+               ESOP 2015, Held as Part of the European Joint Conferences on Theory
+               and Practice of Software, ETAPS 2015, London, UK, April 11-18, 2015.
+               Proceedings</em>
+      
+      
+        2015
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">ITP</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/itp/EberlHN18" class="col-sm-8">
+    
+      <span class="title">Verified Analysis of Random Binary Tree Structures</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Eberl, Manuel,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Haslbeck, Max W.,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Nipkow, Tobias
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Interactive Theorem Proving - 9th International Conference, ITP
+               2018, Held as Part of the Federated Logic Conference, FloC 2018, Oxford,
+               UK, July 9-12, 2018, Proceedings</em>
+      
+      
+        2018
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li></ol>
+
+
+<h2 class="year">模拟检验算法的验证</h2>
+<ol class="bibliography"><li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">TACAS</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/tacas/HolzlN12" class="col-sm-8">
+    
+      <span class="title">Verifying pCTL Model Checking</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Hölzl, Johannes,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Nipkow, Tobias
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Tools and Algorithms for the Construction and Analysis of Systems
+               - 18th International Conference, TACAS 2012, Held as Part of the
+               European Joint Conferences on Theory and Practice of Software, ETAPS
+               2012, Tallinn, Estonia, March 24 - April 1, 2012. Proceedings</em>
+      
+      
+        2012
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">CAV</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/cav/EsparzaLNNSS13" class="col-sm-8">
+    
+      <span class="title">A Fully Verified Executable LTL Model Checker</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Esparza, Javier,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Lammich, Peter,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Neumann, René,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Nipkow, Tobias,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Schimpf, Alexander,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Smaus, Jan-Georg
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Computer Aided Verification - 25th International Conference, CAV
+               2013, Saint Petersburg, Russia, July 13-19, 2013. Proceedings</em>
+      
+      
+        2013
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">NFM</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/nfm/BrunnerL16" class="col-sm-8">
+    
+      <span class="title">Formal Verification of an Executable LTL Model Checker with Partial
+               Order Reduction</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Brunner, Julian,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Lammich, Peter
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In NASA Formal Methods - 8th International Symposium, NFM 2016, Minneapolis,
+               MN, USA, June 7-9, 2016, Proceedings</em>
+      
+      
+        2016
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">JAR</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:journals/jar/Holzl17" class="col-sm-8">
+    
+      <span class="title">Markov Chains and Markov Decision Processes in Isabelle/HOL</span>
+      <span class="author">
+        
+          
+            
+              Hölzl, Johannes
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>J. Autom. Reason.</em>
+      
+      
+        2017
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">TACAS</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/tacas/WimmerL18" class="col-sm-8">
+    
+      <span class="title">Verified Model Checking of Timed Automata</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Wimmer, Simon,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Lammich, Peter
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Tools and Algorithms for the Construction and Analysis of Systems
+               - 24th International Conference, TACAS 2018, Held as Part of the
+               European Joint Conferences on Theory and Practice of Software, ETAPS
+               2018, Thessaloniki, Greece, April 14-20, 2018, Proceedings, Part I</em>
+      
+      
+        2018
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li></ol>
+
+
+<h2 class="year">人工智能算法的验证</h2>
+<ol class="bibliography"><li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">ICML</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/icml/SelsamLD17" class="col-sm-8">
+    
+      <span class="title">Developing Bug-Free Machine Learning Systems With Formal Mathematics</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Selsam, Daniel,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Liang, Percy,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Dill, David L.
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Proceedings of the 34th International Conference on Machine Learning,
+               ICML 2017, Sydney, NSW, Australia, 6-11 August 2017</em>
+      
+      
+        2017
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">ICTAI</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/ictai/AbdulazizL18" class="col-sm-8">
+    
+      <span class="title">A Formally Verified Validator for Classical Planning Problems and
+               Solutions</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Abdulaziz, Mohammad,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Lammich, Peter
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In IEEE 30th International Conference on Tools with Artificial Intelligence,
+               ICTAI 2018, 5-7 November 2018, Volos, Greece</em>
+      
+      
+        2018
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">ITP</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/itp/BentkampBK17" class="col-sm-8">
+    
+      <span class="title">A Formal Proof of the Expressiveness of Deep Learning</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Bentkamp, Alexander,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Blanchette, Jasmin Christian,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Klakow, Dietrich
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Interactive Theorem Proving - 8th International Conference, ITP
+               2017, Brası́lia, Brazil, September 26-29, 2017, Proceedings</em>
+      
+      
+        2017
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li></ol>
+
+
+</div>
+
+  </article>
+
+</div>
+
+    </div>
+
+    <!-- Footer -->
+
+    
+<footer class="fixed-bottom">
+  <div class="container mt-0">
+    &copy; Copyright 2022 TPChina.
+    Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+
+    
+  </div>
+</footer>
+
+
+
+  </body>
+
+  <!-- Load Core and Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.0/umd/popper.min.js" integrity="sha256-OH05DFHUWzr725HmuHo3pnuvUUn+TJuj8/Qz9xytFEw=" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.17.0/js/mdb.min.js"  integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+<!-- Load Common JS -->
+<script src="/assets/js/common.js"></script>
+
+<!-- Code Syntax Highlighting -->
+<link rel="stylesheet" href="https://gitcdn.link/repo/jwarby/jekyll-pygments-themes/master/github.css" />
+
+
+<!-- Load KaTeX -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.11.1/katex.min.css" integrity="sha256-V8SV2MO1FUb63Bwht5Wx9x6PVHNa02gv8BgH/uH3ung=" crossorigin="anonymous" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.11.1/katex.min.js" integrity="sha256-F/Xda58SPdcUCr+xhSGz9MA2zQBPb0ASEYKohl8UCHc=" crossorigin="anonymous"></script>
+<script src="/assets/js/katex.js"></script>
+
+
+
+<!-- Load Mansory & imagesLoaded -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js" integrity="" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+
+<!-- Project Cards Layout -->
+<script type="text/javascript">
+  // Init Masonry
+  var $grid = $('.grid').masonry({
+    gutter: 10,
+    horizontalOrder: true,
+    itemSelector: '.grid-item',
+  });
+  // layout Masonry after each image loads
+  $grid.imagesLoaded().progress( function() {
+    $grid.masonry('layout');
+  });
+</script>
+
+
+
+
+
+
+
+</html>

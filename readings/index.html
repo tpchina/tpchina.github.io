@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>TPChina | TPChina</title>
+<title>TPChina | 资料</title>
 <meta name="description" content="中国定理证明社区
 ">
 
@@ -23,7 +23,7 @@
 <link rel="shortcut icon" href="/assets/img/favicon.ico">
 <link rel="stylesheet" href="/assets/css/main.css">
 
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/readings/">
 
 <!-- Open Graph -->
 
@@ -62,7 +62,7 @@
           </li>
           
           <!-- Blog -->
-          <li class="nav-item active">
+          <li class="nav-item ">
             <a class="nav-link" href="/blog/">
               新闻
               
@@ -124,9 +124,11 @@
           
           
           
-          <li class="nav-item ">
+          <li class="nav-item active">
               <a class="nav-link" href="/readings/">
                 资料
+                
+                <span class="sr-only">(current)</span>
                 
               </a>
           </li>
@@ -152,6 +154,8 @@
           <li class="nav-item">
             <a class="nav-link" href="/readings/">
               资料
+              
+              <span class="sr-only">(current)</span>
               
             </a>
           </li>
@@ -181,30 +185,180 @@
       <div class="post">
 
   <header class="post-header">
-    <!--<h1>社区新闻</h1>
-    <h2></h2>-->
-	<h2 class="post-title"><span class="font-weight-bold">社区新闻</span></h2>
-  </div>
+    <h2 class="post-title"><span class="font-weight-bold">资料</span></h2>
+    <p class="post-description">Readings about theorem proving.</p>
+  </header>
 
+  <article>
+    <h3 id="official">Official</h3>
 
-  <ul class="post-list">
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2021/isabelle-hol-theorem-prover-intro/">定理证明器Isabelle/HOL介绍</a></h3>
-        <p class="post-meta">April 29, 2021</p>
-        <p></p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2021/coq-set-theory/">基于Coq对传统集合论教材形式化（04-03）</a></h3>
-        <p class="post-meta">April 1, 2021</p>
-        <p></p>
-      </li>
-    
-  </ul>
+<ul>
+  <li>
+    <p><a class="page-link" href="https://isabelle.in.tum.de"> Isabelle </a></p>
+  </li>
+  <li>
+    <p><a class="page-link" href="https://coq.inria.fr/"> Coq </a></p>
+  </li>
+  <li>
+    <p><a class="page-link" href="https://leanprover.github.io/"> Agda </a></p>
+  </li>
+  <li>
+    <p><a class="page-link" href="https://wiki.portal.chalmers.se/agda/pmwiki.php"> Lean Prover </a></p>
+  </li>
+  <li>
+    <p><a class="page-link" href="https://www.cs.utexas.edu/users/moore/acl2/"> ACL2 </a></p>
+  </li>
+  <li>
+    <p><a class="page-link" href="https://hol-theorem-prover.org/"> HOL4 </a></p>
+  </li>
+  <li>
+    <p><a class="page-link" href="https://github.com/jrh13/hol-light/"> HOL Light </a></p>
+  </li>
+</ul>
 
-  
+<h3 id="tutorialsbooks">Tutorials/Books</h3>
 
+<h4 id="isabelle">Isabelle</h4>
+
+<ul>
+  <li>
+    <p>Tobias Nipkow, Gerwin Klein: <a class="page-link" href="http://www.concrete-semantics.org/">Concrete Semantics</a></p>
+  </li>
+  <li>
+    <p>Lawrence C. Paulson: <a class="page-link" href="https://www.cl.cam.ac.uk/~lp15/MLbook/pub-details.html">ML for the Working Programmer, 2nd Edition</a></p>
+  </li>
+  <li>
+    <p>Gerwin Klein: <a class="page-link" href="http://proofcraft.org/">Proof Craft</a></p>
+  </li>
+</ul>
+
+<h4 id="coq">Coq</h4>
+
+<ul>
+  <li>
+    <p>Benjamin C. Pierce et al.: <a class="page-link" href="https://softwarefoundations.cis.upenn.edu/">Software Foundations</a></p>
+  </li>
+  <li>
+    <p>Adam Chlipala: <a class="page-link" href="http://adam.chlipala.net/cpdt/">Certified Programming with Dependent Types</a></p>
+  </li>
+</ul>
+
+<h4 id="lean">Lean</h4>
+
+<ul>
+  <li>
+    <p>Jeremy Avigad, Leonardo de Moura, and Soonho Kong: <a class="page-link" href="https://leanprover.github.io/theorem_proving_in_lean/">Theorem Proving in Lean</a></p>
+  </li>
+  <li>
+    <p>Kevin Buzzard and Mohammad Pedramfar: <a class="page-link" href="https://wwwf.imperial.ac.uk/~buzzard/xena/natural_number_game/">The Natural Number Game</a></p>
+  </li>
+</ul>
+
+<h4 id="agda">Agda</h4>
+
+<ul>
+  <li><a class="page-link" href="https://agda.readthedocs.io/en/v2.6.1.1/getting-started/tutorial-list.html">A List of Tutorials</a></li>
+</ul>
+
+<h4 id="hol4">HOL4</h4>
+
+<ul>
+  <li><a class="page-link" href="http://sourceforge.net/projects/hol/files/hol/kananaskis-13/kananaskis-13-description.pdf/download">The HOL System Description</a></li>
+</ul>
+
+<h3 id="courses">Courses</h3>
+
+<ul>
+  <li>
+    <p><a class="page-link" href="https://www.cs.uoregon.edu/research/summerschool/summer20/">OPLSS(Oregon Programming Languages Summer School)</a></p>
+  </li>
+  <li>
+    <p><a class="page-link" href="https://www.cl.cam.ac.uk/teaching/1314/L21/">Interactive Formal Verification</a></p>
+  </li>
+  <li>
+    <p><a class="page-link" href="https://www21.in.tum.de/~nipkow/semantics/">Semantics of Programming Languages</a></p>
+  </li>
+  <li>
+    <p><a class="page-link" href="https://www.cse.unsw.edu.au/~cs4161/">Advanced Topics in Software Verification</a></p>
+  </li>
+  <li>
+    <p><a class="page-link" href="http://adam.chlipala.net/itp/">6.892  Interactive Computer Theorem Proving</a></p>
+  </li>
+  <li>
+    <p><a class="page-link" href="http://leanprover.github.io/cmu-15815-s15/">15–815 Interactive Theorem Proving</a></p>
+  </li>
+  <li>
+    <p><a class="page-link" href="https://www.cs.cmu.edu/~fp/courses/atp/">15-815 Automated Theorem Proving(2014)</a></p>
+  </li>
+  <li>
+    <p><a class="page-link" href="http://cseweb.ucsd.edu/classes/wi06/cse291-f/">CSE 291: Applied Automated Theorem Proving</a></p>
+  </li>
+  <li>
+    <p><a class="page-link" href="https://www.cse.unsw.edu.au/~kleing/teaching/thprv-04/index.html">Theorem Proving - Principles, Techniques, Applications</a></p>
+  </li>
+  <li>
+    <p><a class="page-link" href="http://isabelle.in.tum.de/coursematerial/PSV2009-1/">Theorem Proving with Isabelle/HOL An Intensive Course</a></p>
+  </li>
+  <li>
+    <p><a class="page-link" href="https://www.cs.miami.edu/home/geoff/Courses/TPTPSYS/FirstOrder/">Automated Theorem Proving</a></p>
+  </li>
+</ul>
+
+<h3 id="websites">Websites</h3>
+
+<ul>
+  <li>
+    <p><a class="page-link" href="https://lawrencecpaulson.github.io/">Machine Logic</a></p>
+  </li>
+  <li>
+    <p><a class="page-link" href="https://isabelle.systems">Isabelle Quick Access Links</a></p>
+  </li>
+  <li>
+    <p><a class="page-link" href="https://isabelle-dev.sketis.net">Isabelle Developers</a></p>
+  </li>
+  <li>
+    <p><a class="page-link" href="https://search.isabelle.in.tum.de">Proof Search</a></p>
+  </li>
+  <li>
+    <p><a class="page-link" href="https://proofengineering.org">Proof Engineering</a></p>
+  </li>
+</ul>
+
+<h3 id="groups">Groups</h3>
+
+<ul>
+  <li>
+    <p><a class="page-link" href="https://vals.lri.fr/isabelleclub/">LRI Isabelle Club</a></p>
+  </li>
+  <li>
+    <p><a class="page-link" href="https://www21.in.tum.de/">Chair for Logic and Verification</a></p>
+  </li>
+  <li>
+    <p><a class="page-link" href="https://www.cl.cam.ac.uk/~lp15/">Lawrence Paulson</a></p>
+  </li>
+  <li>
+    <p><a class="page-link" href="https://matryoshka-project.github.io/">Matryoshka (Fast Interactive Verification through Strong Higher-Order Automation)</a></p>
+  </li>
+  <li>
+    <p><a class="page-link" href="https://lean-forward.github.io/">Lean Forward</a></p>
+  </li>
+</ul>
+
+<h3 id="competitions">Competitions</h3>
+
+<ul>
+  <li>
+    <p><a class="page-link" href="https://competition.isabelle.systems/">Proving for Fun</a></p>
+  </li>
+  <li>
+    <p><a class="page-link" href="https://www21.in.tum.de/~wimmers/proofground/">Proof Ground</a></p>
+  </li>
+  <li>
+    <p><a class="page-link" href="https://www.pm.inf.ethz.ch/research/verifythis.html">Verify This</a></p>
+  </li>
+</ul>
+
+  </article>
 
 </div>
 
