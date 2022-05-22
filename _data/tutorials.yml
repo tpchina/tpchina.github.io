@@ -129,7 +129,10 @@ websites:
 
   -
     name: Proof Engineering
-    url: https://proofengineering.org    
+    url: https://proofengineering.org
+  -
+    name: A Gentle Introduction to Automated Reasoning
+    url: https://www.amazon.science/blog/a-gentle-introduction-to-automated-reasoning    
 
 groups:
   -
