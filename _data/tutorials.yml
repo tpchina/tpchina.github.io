@@ -6,10 +6,10 @@ official:
     name: Coq
     link: https://coq.inria.fr/
   - 
-    name: Agda
+    name: Lean Prover
     link: https://leanprover.github.io/
   - 
-    name: Lean Prover
+    name: Agda
     link: https://wiki.portal.chalmers.se/agda/pmwiki.php
   -
     name: ACL2
