@@ -1,0 +1,49 @@
+class:
+  -
+    topic: SAT求解
+    link: /atp/sat/
+    category:
+      -
+        name: 概述
+      -
+        name: 并行求解及应用
+      -
+        name: 证明检验
+      -
+        name: 硬件验证中的应用
+  -
+    topic: SMT求解
+    link: /atp/smt/
+    category:
+      -
+        name: 概述
+      -
+        name: 基本算法
+      -
+        name: Congurence Closure
+      -
+        name: 理论判定算法
+      -
+        name: 量词实例化
+      -
+        name: 系统介绍
+      -
+        name:	基于SMT的程序验证工具
+      -
+        name:	证明重构 
+      -
+        name:	其他应用
+  -
+    topic: 一阶逻辑求解
+    link: /atp/first_order/
+    category:
+      -
+        name: 概述
+      -
+        name: 系统介绍
+      -
+        name: 算法验证
+      -
+        name: 高阶逻辑的扩展
+      -
+        name:	机器学习引导证明
