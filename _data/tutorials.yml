@@ -150,6 +150,9 @@ groups:
   -
     name: Lean Forward
     url: https://lean-forward.github.io/
+  -
+    name: Type Theory for All
+    url: https://www.typetheoryforall.com/ 
 
 competitions:
   -

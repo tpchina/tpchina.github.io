@@ -32,3 +32,6 @@ projects:
   -
     name: Verified Software Toolchain
     url: https://vst.cs.princeton.edu/
+  -
+    name: lets prove leftpad
+    url: https://github.com/hwayne/lets-prove-leftpad
