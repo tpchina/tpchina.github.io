@@ -1,0 +1,967 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<title>TPChina | 一阶逻辑求解</title>
+<meta name="description" content="中国定理证明社区
+">
+
+<!-- Bootstrap & MDB -->
+<link href="/assets/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.17.0/css/mdb.min.css" integrity="sha256-/SwJ2GDcEt5382i8zqDwl36VJGECxEoIcBIuoLmLR4g=" crossorigin="anonymous" />
+
+<!-- Fonts & Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"  integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+
+<!-- Styles -->
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<link rel="canonical" href="/atp/first_order/">
+
+<!-- Open Graph -->
+
+
+  </head>
+
+  <body class="fixed-top-nav ">
+
+    <!-- Header -->
+
+    <header>
+
+    <!-- Nav Bar -->
+    <nav id="navbar" class="navbar navbar-light bg-white navbar-expand-sm fixed-top">
+    <div class="container">
+      <!--  -->
+        <!--  -->
+        <!-- <a class="navbar-brand title font-weight-lighter" href="/"><span class="font-weight-bold">TPChina</span> TPChina</a> -->
+      <!--  -->
+      <img src="/logo.jpg" height="60">
+      <!-- Navbar Toogle -->
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+          <!-- About -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/">
+              首页
+              
+            </a>
+          </li>
+          
+          <!-- Blog -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/blog/">
+              新闻
+              
+            </a>
+          </li>
+          
+          <!-- Other pages -->
+          <!-- 
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/papers_intro/">
+                论文
+                
+              </a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/readings/">
+                资料
+                
+              </a>
+          </li>
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/projects/">
+                项目
+                
+              </a>
+          </li>
+          
+           -->
+          <li class="nav-item">
+            <a class="nav-link" href="/papers_intro/">
+              论文
+              
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/readings/">
+              资料
+              
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/projects/">
+              项目
+              
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about/">
+              关于
+              
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+</header>
+
+
+    <!-- Content -->
+
+    <div class="container mt-5">
+      <div class="post">
+
+  <header class="post-header">
+    <h2 class="post-title"><span class="font-weight-bold">一阶逻辑求解</span></h2>
+    <p class="post-description"></p>
+  </header>
+
+  <article>
+    <div class="left_sidebar">
+    
+    <h5><strong>自动定理证明</strong></h5>
+    
+    
+        
+            <p><a href="/atp/sat/">SAT求解</a></p>
+        
+        
+        
+            <p><a href="/atp/smt/">SMT求解</a></p>
+        
+        
+        
+            <p><a href="/atp/first_order/" style="color:blue">一阶逻辑求解</a></p>
+        
+        
+		
+    <h5><strong>交互式定理证明</strong></h5>
+    
+    
+    
+        
+            <p><a href="/itp/history/">概述和历史</a></p>
+        
+        
+        
+            <p><a href="/itp/assistants/">证明辅助工具</a></p>
+        
+        
+        
+            <p><a href="/itp/math/">形式化数学</a></p>
+        
+        
+        
+            <p><a href="/itp/algo_and_ds/">算法与数据结构</a></p>
+        
+        
+        
+            <p><a href="/itp/pl_and_compliers/">程序语言和编译器</a></p>
+        
+        
+        
+            <p><a href="/itp/pv_logic/">程序验证逻辑</a></p>
+        
+        
+        
+            <p><a href="/itp/op_system/">操作系统验证</a></p>
+        
+        
+        
+            <p><a href="/itp/hardware_verification">硬件验证</a></p>
+        
+        
+        
+            <p><a href="/itp/block_chain">区块链验证</a></p>
+        
+        
+        
+            <p><a href="/itp/hybrid_system">混成系统验证</a></p>
+        
+        
+        
+            <p><a href="/itp/quantum">量子系统验证</a></p>
+        
+        
+</div>
+
+<div class="right_sidebar">
+    <h5><strong>目录</strong></h5>
+    
+    
+    
+    
+    
+    
+    
+    
+        <p>概述</p>
+    
+        <p>系统介绍</p>
+    
+        <p>算法验证</p>
+    
+        <p>高阶逻辑的拓展</p>
+    
+        <p>机器学习引导证明</p>
+    
+    
+    
+</div>
+
+<div class="publications">
+
+<h2 class="year">概述</h2>
+<ol class="bibliography"><li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+  </div>
+
+  <div id="DBLP:books/el/RobinsonV01" class="col-sm-8">
+    
+      <span class="title">Handbook of Automated Reasoning (Chapter 2, 7)</span>
+      <span class="author">
+        
+      </span>
+
+      <span class="periodical">
+      
+      
+        2001
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+  </div>
+
+  <div id="DBLP:books/daglib/0022394" class="col-sm-8">
+    
+      <span class="title">Handbook of Practical Logic and Automated Reasoning(Chapter 3)</span>
+      <span class="author">
+        
+          
+            
+              Harrison, John
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+      
+        2009
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li></ol>
+
+
+<h2 class="year">系统介绍</h2>
+<ol class="bibliography"><li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">CAV</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/cav/KovacsV13" class="col-sm-8">
+    
+      <span class="title">First-Order Theorem Proving and Vampire</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Kovács, Laura,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Voronkov, Andrei
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Computer Aided Verification - 25th International Conference, CAV
+               2013, Saint Petersburg, Russia, July 13-19, 2013. Proceedings</em>
+      
+      
+        2013
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">LPAR</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/lpar/Schulz13" class="col-sm-8">
+    
+      <span class="title">System Description: E 1.8</span>
+      <span class="author">
+        
+          
+            
+              Schulz, Stephan
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Logic for Programming, Artificial Intelligence, and Reasoning - 19th
+               International Conference, LPAR-19, Stellenbosch, South Africa, December
+               14-19, 2013. Proceedings</em>
+      
+      
+        2013
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li></ol>
+
+
+<h2 class="year">算法验证</h2>
+<ol class="bibliography"><li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">CADE</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/cade/SchlichtkrullBT18" class="col-sm-8">
+    
+      <span class="title">Formalizing Bachmair and Ganzinger’s Ordered Resolution Prover</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Schlichtkrull, Anders,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Blanchette, Jasmin Christian,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Traytel, Dmitriy,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Waldmann, Uwe
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Automated Reasoning - 9th International Joint Conference, IJCAR
+               2018, Held as Part of the Federated Logic Conference, FloC 2018, Oxford,
+               UK, July 14-17, 2018, Proceedings</em>
+      
+      
+        2018
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">CADE</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/cade/WaldmannTRB20" class="col-sm-8">
+    
+      <span class="title">A Comprehensive Framework for Saturation Theorem Proving</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Waldmann, Uwe,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Tourret, Sophie,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Robillard, Simon,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Blanchette, Jasmin
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Automated Reasoning - 10th International Joint Conference, IJCAR
+               2020, Paris, France, July 1-4, 2020, Proceedings, Part I</em>
+      
+      
+        2020
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li></ol>
+
+
+<h2 class="year">高阶逻辑的扩展</h2>
+<ol class="bibliography"></ol>
+
+
+<h2 class="year">机器学习引导证明</h2>
+<ol class="bibliography"><li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">LPAR</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/lpar/LoosISK17" class="col-sm-8">
+    
+      <span class="title">Deep Network Guided Proof Search</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Loos, Sarah M.,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Irving, Geoffrey,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Szegedy, Christian,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Kaliszyk, Cezary
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In LPAR-21, 21st International Conference on Logic for Programming, Artificial
+               Intelligence and Reasoning, Maun, Botswana, May 7-12, 2017</em>
+      
+      
+        2017
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">CADE</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/cade/FarberKU17" class="col-sm-8">
+    
+      <span class="title">Monte Carlo Tableau Proof Search</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Färber, Michael,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Kaliszyk, Cezary,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Urban, Josef
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Automated Deduction - CADE 26 - 26th International Conference on
+               Automated Deduction, Gothenburg, Sweden, August 6-11, 2017, Proceedings</em>
+      
+      
+        2017
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">ITP</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/itp/GoertzelJ0U18" class="col-sm-8">
+    
+      <span class="title">ProofWatch: Watchlist Guidance for Large Theories in E</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Goertzel, Zarathustra,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Jakubuv, Jan,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Schulz, Stephan,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Urban, Josef
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Interactive Theorem Proving - 9th International Conference, ITP
+               2018, Held as Part of the Federated Logic Conference, FloC 2018, Oxford,
+               UK, July 9-12, 2018, Proceedings</em>
+      
+      
+        2018
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li></ol>
+
+
+</div>
+
+  </article>
+
+</div>
+
+    </div>
+
+    <!-- Footer -->
+
+    
+<footer class="fixed-bottom">
+  <div class="container mt-0">
+    &copy; Copyright 2025 TPChina.
+    Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+
+    
+  </div>
+</footer>
+
+
+
+  </body>
+
+  <!-- Load Core and Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.0/umd/popper.min.js" integrity="sha256-OH05DFHUWzr725HmuHo3pnuvUUn+TJuj8/Qz9xytFEw=" crossorigin="anonymous"></script>
+<script src="/assets/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.17.0/js/mdb.min.js"  integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+<!-- Load Common JS -->
+<script src="/assets/js/common.js"></script>
+
+<!-- Code Syntax Highlighting -->
+<link rel="stylesheet" href="/assets/css/github.css" />
+
+
+<!-- Load KaTeX -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.11.1/katex.min.css" integrity="sha256-V8SV2MO1FUb63Bwht5Wx9x6PVHNa02gv8BgH/uH3ung=" crossorigin="anonymous" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.11.1/katex.min.js" integrity="sha256-F/Xda58SPdcUCr+xhSGz9MA2zQBPb0ASEYKohl8UCHc=" crossorigin="anonymous"></script>
+<script src="/assets/js/katex.js"></script>
+
+
+
+<!-- Load Mansory & imagesLoaded -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js" integrity="" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+
+<!-- Project Cards Layout -->
+<script type="text/javascript">
+  // Init Masonry
+  var $grid = $('.grid').masonry({
+    gutter: 10,
+    horizontalOrder: true,
+    itemSelector: '.grid-item',
+  });
+  // layout Masonry after each image loads
+  $grid.imagesLoaded().progress( function() {
+    $grid.masonry('layout');
+  });
+</script>
+
+
+
+
+
+
+
+</html>

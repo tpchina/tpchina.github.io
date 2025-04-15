@@ -1,0 +1,3016 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<title>TPChina | SMT求解</title>
+<meta name="description" content="中国定理证明社区
+">
+
+<!-- Bootstrap & MDB -->
+<link href="/assets/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.17.0/css/mdb.min.css" integrity="sha256-/SwJ2GDcEt5382i8zqDwl36VJGECxEoIcBIuoLmLR4g=" crossorigin="anonymous" />
+
+<!-- Fonts & Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"  integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+
+<!-- Styles -->
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<link rel="canonical" href="/atp/smt/">
+
+<!-- Open Graph -->
+
+
+  </head>
+
+  <body class="fixed-top-nav ">
+
+    <!-- Header -->
+
+    <header>
+
+    <!-- Nav Bar -->
+    <nav id="navbar" class="navbar navbar-light bg-white navbar-expand-sm fixed-top">
+    <div class="container">
+      <!--  -->
+        <!--  -->
+        <!-- <a class="navbar-brand title font-weight-lighter" href="/"><span class="font-weight-bold">TPChina</span> TPChina</a> -->
+      <!--  -->
+      <img src="/logo.jpg" height="60">
+      <!-- Navbar Toogle -->
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+          <!-- About -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/">
+              首页
+              
+            </a>
+          </li>
+          
+          <!-- Blog -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/blog/">
+              新闻
+              
+            </a>
+          </li>
+          
+          <!-- Other pages -->
+          <!-- 
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/papers_intro/">
+                论文
+                
+              </a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/readings/">
+                资料
+                
+              </a>
+          </li>
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/projects/">
+                项目
+                
+              </a>
+          </li>
+          
+           -->
+          <li class="nav-item">
+            <a class="nav-link" href="/papers_intro/">
+              论文
+              
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/readings/">
+              资料
+              
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/projects/">
+              项目
+              
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about/">
+              关于
+              
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+</header>
+
+
+    <!-- Content -->
+
+    <div class="container mt-5">
+      <div class="post">
+
+  <header class="post-header">
+    <h2 class="post-title"><span class="font-weight-bold">SMT求解</span></h2>
+    <p class="post-description"></p>
+  </header>
+
+  <article>
+    <div class="left_sidebar">
+    
+    <h5><strong>自动定理证明</strong></h5>
+    
+    
+        
+            <p><a href="/atp/sat/">SAT求解</a></p>
+        
+        
+        
+            <p><a href="/atp/smt/" style="color:blue">SMT求解</a></p>
+        
+        
+        
+            <p><a href="/atp/first_order/">一阶逻辑求解</a></p>
+        
+        
+		
+    <h5><strong>交互式定理证明</strong></h5>
+    
+    
+    
+        
+            <p><a href="/itp/history/">概述和历史</a></p>
+        
+        
+        
+            <p><a href="/itp/assistants/">证明辅助工具</a></p>
+        
+        
+        
+            <p><a href="/itp/math/">形式化数学</a></p>
+        
+        
+        
+            <p><a href="/itp/algo_and_ds/">算法与数据结构</a></p>
+        
+        
+        
+            <p><a href="/itp/pl_and_compliers/">程序语言和编译器</a></p>
+        
+        
+        
+            <p><a href="/itp/pv_logic/">程序验证逻辑</a></p>
+        
+        
+        
+            <p><a href="/itp/op_system/">操作系统验证</a></p>
+        
+        
+        
+            <p><a href="/itp/hardware_verification">硬件验证</a></p>
+        
+        
+        
+            <p><a href="/itp/block_chain">区块链验证</a></p>
+        
+        
+        
+            <p><a href="/itp/hybrid_system">混成系统验证</a></p>
+        
+        
+        
+            <p><a href="/itp/quantum">量子系统验证</a></p>
+        
+        
+</div>
+
+<div class="right_sidebar">
+    <h5><strong>目录</strong></h5>
+    
+    
+    
+    
+    
+    
+        <p>概述</p>
+    
+        <p>基本算法</p>
+    
+        <p>Congurence Closure</p>
+    
+        <p>Decision Procedures</p>
+    
+        <p>量词实例化</p>
+    
+        <p>系统介绍</p>
+    
+        <p>基于SMT的程序验证工具</p>
+    
+        <p>证明重构</p>
+    
+        <p>其它应用</p>
+    
+    
+    
+    
+    
+</div>
+
+<div class="publications">
+
+<h2 class="year">概述</h2>
+<ol class="bibliography"><li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+  </div>
+
+  <div id="DBLP:reference/mc/2018" class="col-sm-8">
+    
+      <span class="title">Handbook of Model Checking(Chapter 11)</span>
+      <span class="author">
+        
+      </span>
+
+      <span class="periodical">
+      
+      
+        2018
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+  </div>
+
+  <div id="DBLP:books/daglib/0022394" class="col-sm-8">
+    
+      <span class="title">Handbook of Practical Logic and Automated Reasoning(Chapter 4, 5)</span>
+      <span class="author">
+        
+          
+            
+              Harrison, John
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+      
+        2009
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+  </div>
+
+  <div id="DBLP:series/txtcs/KroeningS16" class="col-sm-8">
+    
+      <span class="title">Decision Procedures - An Algorithmic Point of View, Second Edition</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Kroening, Daniel,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Strichman, Ofer
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+      
+        2016
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li></ol>
+
+
+<h2 class="year">基本算法</h2>
+<ol class="bibliography"><li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">JACM</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:journals/jacm/DetlefsNS05" class="col-sm-8">
+    
+      <span class="title">Simplify: a theorem prover for program checking</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Detlefs, David,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Nelson, Greg,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Saxe, James B.
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>J. ACM</em>
+      
+      
+        2005
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">JACM</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:journals/jacm/NieuwenhuisOT06" class="col-sm-8">
+    
+      <span class="title">Solving SAT and SAT Modulo Theories: From an abstract Davis–Putnam–Logemann–Loveland
+               procedure to DPLL(<i>T</i>)</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Nieuwenhuis, Robert,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Oliveras, Albert,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Tinelli, Cesare
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>J. ACM</em>
+      
+      
+        2006
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">IJCAR</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/cade/MouraB08a" class="col-sm-8">
+    
+      <span class="title">Engineering DPLL(T) + Saturation</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Moura, Leonardo Mendonça,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Bjørner, Nikolaj
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Automated Reasoning, 4th International Joint Conference, IJCAR 2008,
+               Sydney, Australia, August 12-15, 2008, Proceedings</em>
+      
+      
+        2008
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">JAR</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:journals/jar/DrossCKP16" class="col-sm-8">
+    
+      <span class="title">Adding Decision Procedures to SMT Solvers Using Axioms with Triggers</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Dross, Claire,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Conchon, Sylvain,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Kanig, Johannes,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Paskevich, Andrei
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>J. Autom. Reason.</em>
+      
+      
+        2016
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li></ol>
+
+
+<h2 class="year">Congruence Closure</h2>
+<ol class="bibliography"><li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">Inf. Comput.</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:journals/iandc/NieuwenhuisO07" class="col-sm-8">
+    
+      <span class="title">Fast congruence closure and extensions</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Nieuwenhuis, Robert,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Oliveras, Albert
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>Inf. Comput.</em>
+      
+      
+        2007
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">CADE</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/cade/MouraB07" class="col-sm-8">
+    
+      <span class="title">Efficient E-Matching for SMT Solvers</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Moura, Leonardo Mendonça,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Bjørner, Nikolaj
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Automated Deduction - CADE-21, 21st International Conference on Automated
+               Deduction, Bremen, Germany, July 17-20, 2007, Proceedings</em>
+      
+      
+        2007
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">TACAS</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/tacas/BarbosaFR17" class="col-sm-8">
+    
+      <span class="title">Congruence Closure with Free Variables</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Barbosa, Haniel,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Fontaine, Pascal,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Reynolds, Andrew
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Tools and Algorithms for the Construction and Analysis of Systems
+               - 23rd International Conference, TACAS 2017, Held as Part of the
+               European Joint Conferences on Theory and Practice of Software, ETAPS
+               2017, Uppsala, Sweden, April 22-29, 2017, Proceedings, Part II</em>
+      
+      
+        2017
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li></ol>
+
+
+<h2 class="year">理论判定算法</h2>
+<ol class="bibliography"><li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">CAV</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/cav/DutertreM06" class="col-sm-8">
+    
+      <span class="title">A Fast Linear-Arithmetic Solver for DPLL(T)</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Dutertre, Bruno,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Moura, Leonardo Mendonça
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Computer Aided Verification, 18th International Conference, CAV
+               2006, Seattle, WA, USA, August 17-20, 2006, Proceedings</em>
+      
+      
+        2006
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">VMCAI</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/vmcai/BradleyMS06" class="col-sm-8">
+    
+      <span class="title">What’s Decidable About Arrays?</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Bradley, Aaron R.,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Manna, Zohar,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Sipma, Henny B.
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Verification, Model Checking, and Abstract Interpretation, 7th International
+               Conference, VMCAI 2006, Charleston, SC, USA, January 8-10, 2006,
+               Proceedings</em>
+      
+      
+        2006
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">FMCAD</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/fmcad/MouraB09" class="col-sm-8">
+    
+      <span class="title">Generalized, efficient array decision procedures</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Moura, Leonardo Mendonça,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Bjørner, Nikolaj
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Proceedings of 9th International Conference on Formal Methods in Computer-Aided
+               Design, FMCAD 2009, 15-18 November 2009, Austin, Texas, USA</em>
+      
+      
+        2009
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li></ol>
+
+
+<h2 class="year">量词实例化</h2>
+<ol class="bibliography"><li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">CAV</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/cav/GeM09" class="col-sm-8">
+    
+      <span class="title">Complete Instantiation for Quantified Formulas in Satisfiabiliby Modulo
+               Theories</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Ge, Yeting,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Moura, Leonardo Mendonça
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Computer Aided Verification, 21st International Conference, CAV
+               2009, Grenoble, France, June 26 - July 2, 2009. Proceedings</em>
+      
+      
+        2009
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">CAV</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/cav/ReynoldsTGK13" class="col-sm-8">
+    
+      <span class="title">Finite Model Finding in SMT</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Reynolds, Andrew,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Tinelli, Cesare,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Goel, Amit,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Krstic, Sava
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Computer Aided Verification - 25th International Conference, CAV
+               2013, Saint Petersburg, Russia, July 13-19, 2013. Proceedings</em>
+      
+      
+        2013
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">CAV</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/cav/ReynoldsDKTB15" class="col-sm-8">
+    
+      <span class="title">Counterexample-Guided Quantifier Instantiation for Synthesis in SMT</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Reynolds, Andrew,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Deters, Morgan,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Kuncak, Viktor,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Tinelli, Cesare,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Barrett, Clark W.
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Computer Aided Verification - 27th International Conference, CAV
+               2015, San Francisco, CA, USA, July 18-24, 2015, Proceedings, Part
+               II</em>
+      
+      
+        2015
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">FMSD</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:journals/fmsd/ReynoldsKK17" class="col-sm-8">
+    
+      <span class="title">Solving quantified linear arithmetic by counterexample-guided instantiation</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Reynolds, Andrew,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  King, Tim,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Kuncak, Viktor
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>Formal Methods Syst. Des.</em>
+      
+      
+        2017
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">CAV</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/cav/NiemetzPRBT18" class="col-sm-8">
+    
+      <span class="title">Solving Quantified Bit-Vectors Using Invertibility Conditions</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Niemetz, Aina,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Preiner, Mathias,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Reynolds, Andrew,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Barrett, Clark W.,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Tinelli, Cesare
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Computer Aided Verification - 30th International Conference, CAV
+               2018, Held as Part of the Federated Logic Conference, FloC 2018, Oxford,
+               UK, July 14-17, 2018, Proceedings, Part II</em>
+      
+      
+        2018
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">FMCAD</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/fmcad/JanotaBFR21" class="col-sm-8">
+    
+      <span class="title">Fair and Adventurous Enumeration of Quantifier Instantiations</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Janota, Mikolás,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Barbosa, Haniel,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Fontaine, Pascal,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Reynolds, Andrew
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Formal Methods in Computer Aided Design, FMCAD 2021, New Haven,
+               CT, USA, October 19-22, 2021</em>
+      
+      
+        2021
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">TACAS</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/tacas/NiemetzPRBT21" class="col-sm-8">
+    
+      <span class="title">Syntax-Guided Quantifier Instantiation</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Niemetz, Aina,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Preiner, Mathias,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Reynolds, Andrew,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Barrett, Clark W.,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Tinelli, Cesare
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Tools and Algorithms for the Construction and Analysis of Systems
+               - 27th International Conference, TACAS 2021, Held as Part of the
+               European Joint Conferences on Theory and Practice of Software, ETAPS
+               2021, Luxembourg City, Luxembourg, March 27 - April 1, 2021, Proceedings,
+               Part II</em>
+      
+      
+        2021
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">TACAS</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/tacas/ReynoldsBF18" class="col-sm-8">
+    
+      <span class="title">Revisiting Enumerative Instantiation</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Reynolds, Andrew,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Barbosa, Haniel,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Fontaine, Pascal
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Tools and Algorithms for the Construction and Analysis of Systems
+               - 24th International Conference, TACAS 2018, Held as Part of the
+               European Joint Conferences on Theory and Practice of Software, ETAPS
+               2018, Thessaloniki, Greece, April 14-20, 2018, Proceedings, Part II</em>
+      
+      
+        2018
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">CADE</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/cade/ReynoldsTGKDB13" class="col-sm-8">
+    
+      <span class="title">Quantifier Instantiation Techniques for Finite Model Finding in SMT</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Reynolds, Andrew,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Tinelli, Cesare,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Goel, Amit,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Krstic, Sava,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Deters, Morgan,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Barrett, Clark W.
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Automated Deduction - CADE-24 - 24th International Conference on
+               Automated Deduction, Lake Placid, NY, USA, June 9-14, 2013. Proceedings</em>
+      
+      
+        2013
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li></ol>
+
+
+<h2 class="year">系统介绍</h2>
+<ol class="bibliography"><li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">CAV</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/tacas/MouraB08" class="col-sm-8">
+    
+      <span class="title">Z3: An Efficient SMT Solver</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Moura, Leonardo Mendonça,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Bjørner, Nikolaj
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Tools and Algorithms for the Construction and Analysis of Systems,
+               14th International Conference, TACAS 2008, Held as Part of the Joint
+               European Conferences on Theory and Practice of Software, ETAPS 2008,
+               Budapest, Hungary, March 29-April 6, 2008. Proceedings</em>
+      
+      
+        2008
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">CADE</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/cade/BoutonODF09" class="col-sm-8">
+    
+      <span class="title">veriT: An Open, Trustable and Efficient SMT-Solver</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Bouton, Thomas,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Oliveira, Diego Caminha Barbosa De,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Déharbe, David,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Fontaine, Pascal
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Automated Deduction - CADE-22, 22nd International Conference on Automated
+               Deduction, Montreal, Canada, August 2-7, 2009. Proceedings</em>
+      
+      
+        2009
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">CAV</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/cav/BarrettCDHJKRT11" class="col-sm-8">
+    
+      <span class="title">CVC4</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Barrett, Clark W.,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Conway, Christopher L.,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Deters, Morgan,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Hadarean, Liana,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Jovanovic, Dejan,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  King, Tim,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Reynolds, Andrew,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Tinelli, Cesare
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Computer Aided Verification - 23rd International Conference, CAV
+               2011, Snowbird, UT, USA, July 14-20, 2011. Proceedings</em>
+      
+      
+        2011
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">SAT</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/sat/CorziliusKJSA15" class="col-sm-8">
+    
+      <span class="title">SMT-RAT: An Open Source C++ Toolbox for Strategic and Parallel
+               SMT Solving</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Corzilius, Florian,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Kremer, Gereon,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Junges, Sebastian,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Schupp, Stefan,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Ábrahám, Erika
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Theory and Applications of Satisfiability Testing - SAT 2015 - 18th
+               International Conference, Austin, TX, USA, September 24-27, 2015,
+               Proceedings</em>
+      
+      
+        2015
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li></ol>
+
+
+<h2 class="year">程序验证工具</h2>
+<ol class="bibliography"><li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">LPAR</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/lpar/Leino10" class="col-sm-8">
+    
+      <span class="title">Dafny: An Automatic Program Verifier for Functional Correctness</span>
+      <span class="author">
+        
+          
+            
+              Leino, K. Rustan M.
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Logic for Programming, Artificial Intelligence, and Reasoning - 16th
+               International Conference, LPAR-16, Dakar, Senegal, April 25-May 1,
+               2010, Revised Selected Papers</em>
+      
+      
+        2010
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">ESOP</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/esop/FilliatreP13" class="col-sm-8">
+    
+      <span class="title">Why3 - Where Programs Meet Provers</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Filliâtre, Jean-Christophe,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Paskevich, Andrei
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Programming Languages and Systems - 22nd European Symposium on Programming,
+               ESOP 2013, Held as Part of the European Joint Conferences on Theory
+               and Practice of Software, ETAPS 2013, Rome, Italy, March 16-24,
+               2013. Proceedings</em>
+      
+      
+        2013
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li></ol>
+
+
+<h2 class="year">证明重构</h2>
+<ol class="bibliography"><li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">CADE</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/cade/BohmeN10" class="col-sm-8">
+    
+      <span class="title">Sledgehammer: Judgement Day</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Böhme, Sascha,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Nipkow, Tobias
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Automated Reasoning, 5th International Joint Conference, IJCAR 2010,
+               Edinburgh, UK, July 16-19, 2010. Proceedings</em>
+      
+      
+        2010
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">ITP</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/itp/BohmeW10" class="col-sm-8">
+    
+      <span class="title">Fast LCF-Style Proof Reconstruction for Z3</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Böhme, Sascha,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Weber, Tjark
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Interactive Theorem Proving, First International Conference, ITP
+               2010, Edinburgh, UK, July 11-14, 2010. Proceedings</em>
+      
+      
+        2010
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">CPP</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/cpp/ArmandFGKTW11" class="col-sm-8">
+    
+      <span class="title">A Modular Integration of SAT/SMT Solvers to Coq through Proof Witnesses</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Armand, Michaël,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Faure, Germain,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Grégoire, Benjamin,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Keller, Chantal,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Théry, Laurent,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Werner, Benjamin
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Certified Programs and Proofs - First International Conference, CPP
+               2011, Kenting, Taiwan, December 7-9, 2011. Proceedings</em>
+      
+      
+        2011
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">CADE</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/cade/BlanchetteBP11" class="col-sm-8">
+    
+      <span class="title">Extending Sledgehammer with SMT Solvers</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Blanchette, Jasmin Christian,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Böhme, Sascha,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Paulson, Lawrence C.
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Automated Deduction - CADE-23 - 23rd International Conference on
+               Automated Deduction, Wroclaw, Poland, July 31 - August 5, 2011. Proceedings</em>
+      
+      
+        2011
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">FMSD</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:journals/fmsd/StumpORHT13" class="col-sm-8">
+    
+      <span class="title">SMT proof checking using a logical framework</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Stump, Aaron,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Oe, Duckki,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Reynolds, Andrew,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Hadarean, Liana,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Tinelli, Cesare
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>Formal Methods Syst. Des.</em>
+      
+      
+        2013
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">JFR</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:journals/jfrea/BlanchetteKPU16" class="col-sm-8">
+    
+      <span class="title">Hammering towards QED</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Blanchette, Jasmin Christian,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Kaliszyk, Cezary,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Paulson, Lawrence C.,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Urban, Josef
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>J. Formaliz. Reason.</em>
+      
+      
+        2016
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li></ol>
+
+
+<h2 class="year">其它</h2>
+<ol class="bibliography"><li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">JACM</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:journals/jacm/BrandlBEG18" class="col-sm-8">
+    
+      <span class="title">Proving the Incompatibility of Efficiency and Strategyproofness via
+               SMT Solving</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Brandl, Florian,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Brandt, Felix,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Eberl, Manuel,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Geist, Christian
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>J. ACM</em>
+      
+      
+        2018
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li></ol>
+
+
+</div>
+
+  </article>
+
+</div>
+
+    </div>
+
+    <!-- Footer -->
+
+    
+<footer class="fixed-bottom">
+  <div class="container mt-0">
+    &copy; Copyright 2025 TPChina.
+    Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+
+    
+  </div>
+</footer>
+
+
+
+  </body>
+
+  <!-- Load Core and Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.0/umd/popper.min.js" integrity="sha256-OH05DFHUWzr725HmuHo3pnuvUUn+TJuj8/Qz9xytFEw=" crossorigin="anonymous"></script>
+<script src="/assets/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.17.0/js/mdb.min.js"  integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+<!-- Load Common JS -->
+<script src="/assets/js/common.js"></script>
+
+<!-- Code Syntax Highlighting -->
+<link rel="stylesheet" href="/assets/css/github.css" />
+
+
+<!-- Load KaTeX -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.11.1/katex.min.css" integrity="sha256-V8SV2MO1FUb63Bwht5Wx9x6PVHNa02gv8BgH/uH3ung=" crossorigin="anonymous" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.11.1/katex.min.js" integrity="sha256-F/Xda58SPdcUCr+xhSGz9MA2zQBPb0ASEYKohl8UCHc=" crossorigin="anonymous"></script>
+<script src="/assets/js/katex.js"></script>
+
+
+
+<!-- Load Mansory & imagesLoaded -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js" integrity="" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+
+<!-- Project Cards Layout -->
+<script type="text/javascript">
+  // Init Masonry
+  var $grid = $('.grid').masonry({
+    gutter: 10,
+    horizontalOrder: true,
+    itemSelector: '.grid-item',
+  });
+  // layout Masonry after each image loads
+  $grid.imagesLoaded().progress( function() {
+    $grid.masonry('layout');
+  });
+</script>
+
+
+
+
+
+
+
+</html>

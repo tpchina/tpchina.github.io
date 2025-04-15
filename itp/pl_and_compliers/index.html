@@ -1,0 +1,1918 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<title>TPChina | 程序语言和编译器</title>
+<meta name="description" content="中国定理证明社区
+">
+
+<!-- Bootstrap & MDB -->
+<link href="/assets/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.17.0/css/mdb.min.css" integrity="sha256-/SwJ2GDcEt5382i8zqDwl36VJGECxEoIcBIuoLmLR4g=" crossorigin="anonymous" />
+
+<!-- Fonts & Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"  integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+
+<!-- Styles -->
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<link rel="canonical" href="/itp/pl_and_compliers/">
+
+<!-- Open Graph -->
+
+
+  </head>
+
+  <body class="fixed-top-nav ">
+
+    <!-- Header -->
+
+    <header>
+
+    <!-- Nav Bar -->
+    <nav id="navbar" class="navbar navbar-light bg-white navbar-expand-sm fixed-top">
+    <div class="container">
+      <!--  -->
+        <!--  -->
+        <!-- <a class="navbar-brand title font-weight-lighter" href="/"><span class="font-weight-bold">TPChina</span> TPChina</a> -->
+      <!--  -->
+      <img src="/logo.jpg" height="60">
+      <!-- Navbar Toogle -->
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+          <!-- About -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/">
+              首页
+              
+            </a>
+          </li>
+          
+          <!-- Blog -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/blog/">
+              新闻
+              
+            </a>
+          </li>
+          
+          <!-- Other pages -->
+          <!-- 
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/papers_intro/">
+                论文
+                
+              </a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/readings/">
+                资料
+                
+              </a>
+          </li>
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/projects/">
+                项目
+                
+              </a>
+          </li>
+          
+           -->
+          <li class="nav-item">
+            <a class="nav-link" href="/papers_intro/">
+              论文
+              
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/readings/">
+              资料
+              
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/projects/">
+              项目
+              
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about/">
+              关于
+              
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+</header>
+
+
+    <!-- Content -->
+
+    <div class="container mt-5">
+      <div class="post">
+
+  <header class="post-header">
+    <h2 class="post-title"><span class="font-weight-bold">程序语言和编译器</span></h2>
+    <p class="post-description"></p>
+  </header>
+
+  <article>
+    <div class="left_sidebar">
+    
+    <h5><strong>自动定理证明</strong></h5>
+    
+    
+        
+            <p><a href="/atp/sat/">SAT求解</a></p>
+        
+        
+        
+            <p><a href="/atp/smt/">SMT求解</a></p>
+        
+        
+        
+            <p><a href="/atp/first_order/">一阶逻辑求解</a></p>
+        
+        
+		
+    <h5><strong>交互式定理证明</strong></h5>
+    
+    
+    
+        
+            <p><a href="/itp/history/">概述和历史</a></p>
+        
+        
+        
+            <p><a href="/itp/assistants/">证明辅助工具</a></p>
+        
+        
+        
+            <p><a href="/itp/math/">形式化数学</a></p>
+        
+        
+        
+            <p><a href="/itp/algo_and_ds/">算法与数据结构</a></p>
+        
+        
+        
+            <p><a href="/itp/pl_and_compliers/" style="color:blue">程序语言和编译器</a></p>
+        
+        
+        
+            <p><a href="/itp/pv_logic/">程序验证逻辑</a></p>
+        
+        
+        
+            <p><a href="/itp/op_system/">操作系统验证</a></p>
+        
+        
+        
+            <p><a href="/itp/hardware_verification">硬件验证</a></p>
+        
+        
+        
+            <p><a href="/itp/block_chain">区块链验证</a></p>
+        
+        
+        
+            <p><a href="/itp/hybrid_system">混成系统验证</a></p>
+        
+        
+        
+            <p><a href="/itp/quantum">量子系统验证</a></p>
+        
+        
+</div>
+
+<div class="right_sidebar">
+    <h5><strong>目录</strong></h5>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        <p>CompCert(C)</p>
+    
+        <p>AutoCorres(C)</p>
+    
+        <p>Java</p>
+    
+        <p>LLVM</p>
+    
+        <p>CakeML</p>
+    
+        <p>Rust</p>
+    
+        <p>Lustre</p>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</div>
+
+<div class="publications">
+
+<h2 class="year">CompCert(C)</h2>
+<ol class="bibliography"><li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">POPL</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/popl/Leroy06" class="col-sm-8">
+    
+      <span class="title">Formal certification of a compiler back-end or: programming a compiler
+               with a proof assistant</span>
+      <span class="author">
+        
+          
+            
+              Leroy, Xavier
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Proceedings of the 33rd ACM SIGPLAN-SIGACT Symposium on Principles
+               of Programming Languages, POPL 2006, Charleston, South Carolina,
+               USA, January 11-13, 2006</em>
+      
+      
+        2006
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">JAR</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:journals/jar/LeroyB08" class="col-sm-8">
+    
+      <span class="title">Formal Verification of a C-like Memory Model and Its Uses for Verifying
+               Program Transformations</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Leroy, Xavier,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Blazy, Sandrine
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>J. Autom. Reason.</em>
+      
+      
+        2008
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">CACM</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:journals/cacm/Leroy09" class="col-sm-8">
+    
+      <span class="title">Formal verification of a realistic compiler</span>
+      <span class="author">
+        
+          
+            
+              Leroy, Xavier
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>Commun. ACM</em>
+      
+      
+        2009
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">JAR</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:journals/jar/BlazyL09" class="col-sm-8">
+    
+      <span class="title">Mechanized Semantics for the Clight Subset of the C Language</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Blazy, Sandrine,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Leroy, Xavier
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>J. Autom. Reason.</em>
+      
+      
+        2009
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">PLDI</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/pldi/JiangLXZF19" class="col-sm-8">
+    
+      <span class="title">Towards certified separate compilation for concurrent programs</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Jiang, Hanru,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Liang, Hongjin,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Xiao, Siyang,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Zha, Junpeng,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Feng, Xinyu
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Proceedings of the 40th ACM SIGPLAN Conference on Programming
+               Language Design and Implementation, PLDI 2019, Phoenix, AZ, USA,
+               June 22-26, 2019</em>
+      
+      
+        2019
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li></ol>
+
+
+<h2 class="year">AutoCorres(C)</h2>
+<ol class="bibliography"><li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">POPL</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/popl/TuchKN07" class="col-sm-8">
+    
+      <span class="title">Types, bytes, and separation logic</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Tuch, Harvey,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Klein, Gerwin,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Norrish, Michael
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Proceedings of the 34th ACM SIGPLAN-SIGACT Symposium on Principles
+               of Programming Languages, POPL 2007, Nice, France, January 17-19,
+               2007</em>
+      
+      
+        2007
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">ITP</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/itp/GreenawayAK12" class="col-sm-8">
+    
+      <span class="title">Bridging the Gap: Automatic Verified Abstraction of C</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Greenaway, David,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Andronick, June,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Klein, Gerwin
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Interactive Theorem Proving - Third International Conference, ITP
+               2012, Princeton, NJ, USA, August 13-15, 2012. Proceedings</em>
+      
+      
+        2012
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">PLDI</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/pldi/GreenawayLAK14" class="col-sm-8">
+    
+      <span class="title">Don’t sweat the small stuff: formal verification of C code without
+               the pain</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Greenaway, David,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Lim, Japheth,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Andronick, June,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Klein, Gerwin
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In ACM SIGPLAN Conference on Programming Language Design and Implementation,
+               PLDI ’14, Edinburgh, United Kingdom - June 09 - 11, 2014</em>
+      
+      
+        2014
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li></ol>
+
+
+<h2 class="year">JAVA</h2>
+<ol class="bibliography"><li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">ESOP</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/esop/Lochbihler10" class="col-sm-8">
+    
+      <span class="title">Verifying a Compiler for Java Threads</span>
+      <span class="author">
+        
+          
+            
+              Lochbihler, Andreas
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Programming Languages and Systems, 19th European Symposium on Programming,
+               ESOP 2010, Held as Part of the Joint European Conferences on Theory
+               and Practice of Software, ETAPS 2010, Paphos, Cyprus, March 20-28,
+               2010. Proceedings</em>
+      
+      
+        2010
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">ESOP</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/esop/Lochbihler12" class="col-sm-8">
+    
+      <span class="title">Java and the Java Memory Model - A Unified, Machine-Checked Formalisation</span>
+      <span class="author">
+        
+          
+            
+              Lochbihler, Andreas
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Programming Languages and Systems - 21st European Symposium on Programming,
+               ESOP 2012, Held as Part of the European Joint Conferences on Theory
+               and Practice of Software, ETAPS 2012, Tallinn, Estonia, March 24
+               - April 1, 2012. Proceedings</em>
+      
+      
+        2012
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">TOPLAS</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:journals/toplas/Lochbihler13" class="col-sm-8">
+    
+      <span class="title">Making the java memory model safe</span>
+      <span class="author">
+        
+          
+            
+              Lochbihler, Andreas
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>ACM Trans. Program. Lang. Syst.</em>
+      
+      
+        2013
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li></ol>
+
+
+<h2 class="year">LLVM</h2>
+<ol class="bibliography"><li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">POPL</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/popl/ZhaoNMZ12" class="col-sm-8">
+    
+      <span class="title">Formalizing the LLVM intermediate representation for verified program
+               transformations</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Zhao, Jianzhou,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Nagarakatte, Santosh,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Martin, Milo M. K.,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Zdancewic, Steve
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Proceedings of the 39th ACM SIGPLAN-SIGACT Symposium on Principles
+               of Programming Languages, POPL 2012, Philadelphia, Pennsylvania,
+               USA, January 22-28, 2012</em>
+      
+      
+        2012
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">ITP</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/itp/Lammich19" class="col-sm-8">
+    
+      <span class="title">Generating Verified LLVM from Isabelle/HOL</span>
+      <span class="author">
+        
+          
+            
+              Lammich, Peter
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In 10th International Conference on Interactive Theorem Proving, ITP
+               2019, September 9-12, 2019, Portland, OR, USA</em>
+      
+      
+        2019
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li></ol>
+
+
+<h2 class="year">CakeML</h2>
+<ol class="bibliography"><li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">ICFP</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/icfp/TanMKFON16" class="col-sm-8">
+    
+      <span class="title">A new verified compiler backend for CakeML</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Tan, Yong Kiam,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Myreen, Magnus O.,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Kumar, Ramana,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Fox, Anthony C. J.,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Owens, Scott,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Norrish, Michael
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Proceedings of the 21st ACM SIGPLAN International Conference on
+               Functional Programming, ICFP 2016, Nara, Japan, September 18-22,
+               2016</em>
+      
+      
+        2016
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">ESOP</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/esop/HupelN18" class="col-sm-8">
+    
+      <span class="title">A Verified Compiler from Isabelle/HOL to CakeML</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Hupel, Lars,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Nipkow, Tobias
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Programming Languages and Systems - 27th European Symposium on Programming,
+               ESOP 2018, Held as Part of the European Joint Conferences on Theory
+               and Practice of Software, ETAPS 2018, Thessaloniki, Greece, April
+               14-20, 2018, Proceedings</em>
+      
+      
+        2018
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">JAR</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:journals/jar/EricssonMP19" class="col-sm-8">
+    
+      <span class="title">A Verified Generational Garbage Collector for CakeML</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Ericsson, Adam Sandberg,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Myreen, Magnus O.,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Pohjola, Johannes
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>J. Autom. Reason.</em>
+      
+      
+        2019
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+  </div>
+
+  <div id="DBLP:journals/jfp/TanMKFON19" class="col-sm-8">
+    
+      <span class="title">The verified CakeML compiler backend</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Tan, Yong Kiam,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Myreen, Magnus O.,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Kumar, Ramana,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Fox, Anthony C. J.,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Owens, Scott,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Norrish, Michael
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>J. Funct. Program.</em>
+      
+      
+        2019
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li></ol>
+
+
+<h2 class="year">Rust</h2>
+<ol class="bibliography"><li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">POPL</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:journals/pacmpl/0002JKD18" class="col-sm-8">
+    
+      <span class="title">RustBelt: securing the foundations of the rust programming language</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Jung, Ralf,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Jourdan, Jacques-Henri,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Krebbers, Robbert,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Dreyer, Derek
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>Proc. ACM Program. Lang.</em>
+      
+      
+        2018
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">TASE</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/tase/WangSZZZ18" class="col-sm-8">
+    
+      <span class="title">KRust: A Formal Executable Semantics of Rust</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Wang, Feng,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Song, Fu,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Zhang, Min,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Zhu, Xiaoran,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Zhang, Jun
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In 2018 International Symposium on Theoretical Aspects of Software Engineering,
+               TASE 2018, Guangzhou, China, August 29-31, 2018</em>
+      
+      
+        2018
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li></ol>
+
+
+<h2 class="year">Lustre</h2>
+<ol class="bibliography"><li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">PLDI</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/pldi/BourkeBDLPR17" class="col-sm-8">
+    
+      <span class="title">A formally verified compiler for Lustre</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Bourke, Timothy,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Brun, Lélio,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Dagand, Pierre-Évariste,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Leroy, Xavier,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Pouzet, Marc,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Rieg, Lionel
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Proceedings of the 38th ACM SIGPLAN Conference on Programming
+               Language Design and Implementation, PLDI 2017, Barcelona, Spain,
+               June 18-23, 2017</em>
+      
+      
+        2017
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">POPL</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:journals/pacmpl/BourkeBP20" class="col-sm-8">
+    
+      <span class="title">Mechanized semantics and verified compilation for a dataflow synchronous
+               language with reset</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Bourke, Timothy,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Brun, Lélio,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Pouzet, Marc
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>Proc. ACM Program. Lang.</em>
+      
+      
+        2020
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li></ol>
+
+
+</div>
+
+  </article>
+
+</div>
+
+    </div>
+
+    <!-- Footer -->
+
+    
+<footer class="fixed-bottom">
+  <div class="container mt-0">
+    &copy; Copyright 2025 TPChina.
+    Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+
+    
+  </div>
+</footer>
+
+
+
+  </body>
+
+  <!-- Load Core and Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.0/umd/popper.min.js" integrity="sha256-OH05DFHUWzr725HmuHo3pnuvUUn+TJuj8/Qz9xytFEw=" crossorigin="anonymous"></script>
+<script src="/assets/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.17.0/js/mdb.min.js"  integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+<!-- Load Common JS -->
+<script src="/assets/js/common.js"></script>
+
+<!-- Code Syntax Highlighting -->
+<link rel="stylesheet" href="/assets/css/github.css" />
+
+
+<!-- Load KaTeX -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.11.1/katex.min.css" integrity="sha256-V8SV2MO1FUb63Bwht5Wx9x6PVHNa02gv8BgH/uH3ung=" crossorigin="anonymous" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.11.1/katex.min.js" integrity="sha256-F/Xda58SPdcUCr+xhSGz9MA2zQBPb0ASEYKohl8UCHc=" crossorigin="anonymous"></script>
+<script src="/assets/js/katex.js"></script>
+
+
+
+<!-- Load Mansory & imagesLoaded -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js" integrity="" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+
+<!-- Project Cards Layout -->
+<script type="text/javascript">
+  // Init Masonry
+  var $grid = $('.grid').masonry({
+    gutter: 10,
+    horizontalOrder: true,
+    itemSelector: '.grid-item',
+  });
+  // layout Masonry after each image loads
+  $grid.imagesLoaded().progress( function() {
+    $grid.masonry('layout');
+  });
+</script>
+
+
+
+
+
+
+
+</html>

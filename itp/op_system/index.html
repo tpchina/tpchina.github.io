@@ -1,0 +1,2679 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<title>TPChina | 操作系统验证</title>
+<meta name="description" content="中国定理证明社区
+">
+
+<!-- Bootstrap & MDB -->
+<link href="/assets/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.17.0/css/mdb.min.css" integrity="sha256-/SwJ2GDcEt5382i8zqDwl36VJGECxEoIcBIuoLmLR4g=" crossorigin="anonymous" />
+
+<!-- Fonts & Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"  integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+
+<!-- Styles -->
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<link rel="canonical" href="/itp/op_system/">
+
+<!-- Open Graph -->
+
+
+  </head>
+
+  <body class="fixed-top-nav ">
+
+    <!-- Header -->
+
+    <header>
+
+    <!-- Nav Bar -->
+    <nav id="navbar" class="navbar navbar-light bg-white navbar-expand-sm fixed-top">
+    <div class="container">
+      <!--  -->
+        <!--  -->
+        <!-- <a class="navbar-brand title font-weight-lighter" href="/"><span class="font-weight-bold">TPChina</span> TPChina</a> -->
+      <!--  -->
+      <img src="/logo.jpg" height="60">
+      <!-- Navbar Toogle -->
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+          <!-- About -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/">
+              首页
+              
+            </a>
+          </li>
+          
+          <!-- Blog -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/blog/">
+              新闻
+              
+            </a>
+          </li>
+          
+          <!-- Other pages -->
+          <!-- 
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/papers_intro/">
+                论文
+                
+              </a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/readings/">
+                资料
+                
+              </a>
+          </li>
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/projects/">
+                项目
+                
+              </a>
+          </li>
+          
+           -->
+          <li class="nav-item">
+            <a class="nav-link" href="/papers_intro/">
+              论文
+              
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/readings/">
+              资料
+              
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/projects/">
+              项目
+              
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about/">
+              关于
+              
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+</header>
+
+
+    <!-- Content -->
+
+    <div class="container mt-5">
+      <div class="post">
+
+  <header class="post-header">
+    <h2 class="post-title"><span class="font-weight-bold">操作系统验证</span></h2>
+    <p class="post-description"></p>
+  </header>
+
+  <article>
+    <div class="left_sidebar">
+    
+    <h5><strong>自动定理证明</strong></h5>
+    
+    
+        
+            <p><a href="/atp/sat/">SAT求解</a></p>
+        
+        
+        
+            <p><a href="/atp/smt/">SMT求解</a></p>
+        
+        
+        
+            <p><a href="/atp/first_order/">一阶逻辑求解</a></p>
+        
+        
+		
+    <h5><strong>交互式定理证明</strong></h5>
+    
+    
+    
+        
+            <p><a href="/itp/history/">概述和历史</a></p>
+        
+        
+        
+            <p><a href="/itp/assistants/">证明辅助工具</a></p>
+        
+        
+        
+            <p><a href="/itp/math/">形式化数学</a></p>
+        
+        
+        
+            <p><a href="/itp/algo_and_ds/">算法与数据结构</a></p>
+        
+        
+        
+            <p><a href="/itp/pl_and_compliers/">程序语言和编译器</a></p>
+        
+        
+        
+            <p><a href="/itp/pv_logic/">程序验证逻辑</a></p>
+        
+        
+        
+            <p><a href="/itp/op_system/" style="color:blue">操作系统验证</a></p>
+        
+        
+        
+            <p><a href="/itp/hardware_verification">硬件验证</a></p>
+        
+        
+        
+            <p><a href="/itp/block_chain">区块链验证</a></p>
+        
+        
+        
+            <p><a href="/itp/hybrid_system">混成系统验证</a></p>
+        
+        
+        
+            <p><a href="/itp/quantum">量子系统验证</a></p>
+        
+        
+</div>
+
+<div class="right_sidebar">
+    <h5><strong>目录</strong></h5>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        <p>seL4(Isablle)</p>
+    
+        <p>CertiKOS(Coq)</p>
+    
+        <p>其它</p>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</div>
+
+<div class="publications">
+
+<h2 class="year">seL4</h2>
+
+<ol class="bibliography"><li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">TPHOLs</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/tphol/CockKS08" class="col-sm-8">
+    
+      <span class="title">Secure Microkernels, State Monads and Scalable Refinement</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Cock, David,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Klein, Gerwin,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Sewell, Thomas
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Theorem Proving in Higher Order Logics, 21st International Conference,
+               TPHOLs 2008, Montreal, Canada, August 18-21, 2008. Proceedings</em>
+      
+      
+        2008
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">SOSP</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/sosp/KleinEHACDEEKNSTW09" class="col-sm-8">
+    
+      <span class="title">seL4: formal verification of an OS kernel</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Klein, Gerwin,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Elphinstone, Kevin,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Heiser, Gernot,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Andronick, June,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Cock, David,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Derrin, Philip,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Elkaduwe, Dhammika,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Engelhardt, Kai,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Kolanski, Rafal,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Norrish, Michael,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Sewell, Thomas,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Tuch, Harvey,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Winwood, Simon
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Proceedings of the 22nd ACM Symposium on Operating Systems Principles
+               2009, SOSP 2009, Big Sky, Montana, USA, October 11-14, 2009</em>
+      
+      
+        2009
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">ITP</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/itp/SewellWGMAK11" class="col-sm-8">
+    
+      <span class="title">seL4 Enforces Integrity</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Sewell, Thomas,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Winwood, Simon,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Gammie, Peter,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Murray, Toby C.,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Andronick, June,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Klein, Gerwin
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Interactive Theorem Proving - Second International Conference, ITP
+               2011, Berg en Dal, The Netherlands, August 22-25, 2011. Proceedings</em>
+      
+      
+        2011
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">IEEE S&amp;P</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/sp/MurrayMBGBSLGK13" class="col-sm-8">
+    
+      <span class="title">seL4: From General Purpose to a Proof of Information Flow Enforcement</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Murray, Toby C.,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Matichuk, Daniel,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Brassil, Matthew,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Gammie, Peter,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Bourke, Timothy,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Seefried, Sean,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Lewis, Corey,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Gao, Xin,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Klein, Gerwin
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In 2013 IEEE Symposium on Security and Privacy, SP 2013, Berkeley,
+               CA, USA, May 19-22, 2013</em>
+      
+      
+        2013
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">PLDI</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/pldi/SewellMK13" class="col-sm-8">
+    
+      <span class="title">Translation validation for a verified OS kernel</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Sewell, Thomas Arthur Leck,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Myreen, Magnus O.,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Klein, Gerwin
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In ACM SIGPLAN Conference on Programming Language Design and Implementation,
+               PLDI ’13, Seattle, WA, USA, June 16-19, 2013</em>
+      
+      
+        2013
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">TOCS</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:journals/tocs/KleinAEMSKH14" class="col-sm-8">
+    
+      <span class="title">Comprehensive formal verification of an OS microkernel</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Klein, Gerwin,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Andronick, June,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Elphinstone, Kevin,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Murray, Toby C.,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Sewell, Thomas,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Kolanski, Rafal,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Heiser, Gernot
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>ACM Trans. Comput. Syst.</em>
+      
+      
+        2014
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">Phil. Trans.</abbr>
+    
+  
+  </div>
+
+  <div id="article" class="col-sm-8">
+    
+      <span class="title">Provably trustworthy systems</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Klein, Gerwin,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Andronick, June,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Keller, Gabriele,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Matichuk, Daniel,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Murray, Toby,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and O’Connor, Liam
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>Philosophical Transactions of The Royal Society A Mathematical Physical and Engineering Sciences</em>
+      
+      
+        2017
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">ITP</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/itp/SyedaK18" class="col-sm-8">
+    
+      <span class="title">Program Verification in the Presence of Cached Address Translation</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Syeda, Hira Taqdees,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Klein, Gerwin
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Interactive Theorem Proving - 9th International Conference, ITP
+               2018, Held as Part of the Federated Logic Conference, FloC 2018, Oxford,
+               UK, July 9-12, 2018, Proceedings</em>
+      
+      
+        2018
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li></ol>
+
+
+<h2 class="year">CertiKOS</h2>
+
+<ol class="bibliography"><li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">POPL</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/popl/GuKRSWWZG15" class="col-sm-8">
+    
+      <span class="title">Deep Specifications and Certified Abstraction Layers</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Gu, Ronghui,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Koenig, Jérémie,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Ramananandro, Tahina,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Shao, Zhong,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Wu, Xiongnan (Newman),
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Weng, Shu-Chun,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Zhang, Haozhong,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Guo, Yu
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Proceedings of the 42nd Annual ACM SIGPLAN-SIGACT Symposium on
+               Principles of Programming Languages, POPL 2015, Mumbai, India, January
+               15-17, 2015</em>
+      
+      
+        2015
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">PLDI</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/pldi/ChenWSLG16" class="col-sm-8">
+    
+      <span class="title">Toward compositional verification of interruptible OS kernels and
+               device drivers</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Chen, Hao,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Wu, Xiongnan (Newman),
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Shao, Zhong,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Lockerman, Joshua,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Gu, Ronghui
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Proceedings of the 37th ACM SIGPLAN Conference on Programming
+               Language Design and Implementation, PLDI 2016, Santa Barbara, CA,
+               USA, June 13-17, 2016</em>
+      
+      
+        2016
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">PLDI</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/pldi/CostanzoSG16" class="col-sm-8">
+    
+      <span class="title">End-to-end verification of information-flow security for C and assembly
+               programs</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Costanzo, David,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Shao, Zhong,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Gu, Ronghui
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Proceedings of the 37th ACM SIGPLAN Conference on Programming
+               Language Design and Implementation, PLDI 2016, Santa Barbara, CA,
+               USA, June 13-17, 2016</em>
+      
+      
+        2016
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">OSDI</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/osdi/GuSCWKSC16" class="col-sm-8">
+    
+      <span class="title">CertiKOS: An Extensible Architecture for Building Certified Concurrent
+               OS Kernels</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Gu, Ronghui,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Shao, Zhong,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Chen, Hao,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Wu, Xiongnan (Newman),
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Kim, Jieung,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Sjöberg, Vilhelm,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Costanzo, David
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In 12th USENIX Symposium on Operating Systems Design and Implementation,
+               OSDI 2016, Savannah, GA, USA, November 2-4, 2016</em>
+      
+      
+        2016
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">PLDI</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/pldi/GuSKWKS0CR18" class="col-sm-8">
+    
+      <span class="title">Certified concurrent abstraction layers</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Gu, Ronghui,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Shao, Zhong,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Kim, Jieung,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Wu, Xiongnan (Newman),
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Koenig, Jérémie,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Sjöberg, Vilhelm,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Chen, Hao,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Costanzo, David,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Ramananandro, Tahina
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Proceedings of the 39th ACM SIGPLAN Conference on Programming
+               Language Design and Implementation, PLDI 2018, Philadelphia, PA,
+               USA, June 18-22, 2018</em>
+      
+      
+        2018
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">CAV</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/cav/GuoLLRS19" class="col-sm-8">
+    
+      <span class="title">Integrating Formal Schedulability Analysis into a Verified OS Kernel</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Guo, Xiaojie,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Lesourd, Maxime,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Liu, Mengqi,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Rieg, Lionel,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Shao, Zhong
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Computer Aided Verification - 31st International Conference, CAV
+               2019, New York City, NY, USA, July 15-18, 2019, Proceedings, Part
+               II</em>
+      
+      
+        2019
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">OSDI</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/osdi/GuSCWKSC17" class="col-sm-8">
+    
+      <span class="title">CertiKOS: An Extensible Architecture for Building Certified Concurrent
+               OS Kernels</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Gu, Ronghui,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Shao, Zhong,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Chen, Hao,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Wu, Xiongnan (Newman),
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Kim, Jieung,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Sjöberg, Vilhelm,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Costanzo, David
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In 12th USENIX Symposium on Operating Systems Design and Implementation,
+               OSDI 2016, Savannah, GA, USA, November 2-4, 2016</em>
+      
+      
+        2016
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">LICS</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/lics/KoenigS20" class="col-sm-8">
+    
+      <span class="title">Refinement-Based Game Semantics for Certified Abstraction Layers</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Koenig, Jérémie,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Shao, Zhong
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In LICS ’20: 35th Annual ACM/IEEE Symposium on Logic in Computer
+               Science, Saarbrücken, Germany, July 8-11, 2020</em>
+      
+      
+        2020
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">POPL</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:journals/pacmpl/LiuRSGCKY20" class="col-sm-8">
+    
+      <span class="title">Virtual timeline: a formal abstraction for verifying preemptive schedulers
+               with temporal isolation</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Liu, Mengqi,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Rieg, Lionel,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Shao, Zhong,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Gu, Ronghui,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Costanzo, David,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Kim, Jung-Eun,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Yoon, Man-Ki
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>Proc. ACM Program. Lang.</em>
+      
+      
+        2020
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li></ol>
+
+
+<h2 class="year">其它</h2>
+
+<ol class="bibliography"><li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">CAV</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/cav/XuFFZZL16" class="col-sm-8">
+    
+      <span class="title">A Practical Verification Framework for Preemptive OS Kernels</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Xu, Fengwei,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Fu, Ming,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Feng, Xinyu,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Zhang, Xiaoran,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Zhang, Hui,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Li, Zhaohui
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Computer Aided Verification - 28th International Conference, CAV
+               2016, Toronto, ON, Canada, July 17-23, 2016, Proceedings, Part II</em>
+      
+      
+        2016
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">ICECCS</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/iceccs/JiangSZK019" class="col-sm-8">
+    
+      <span class="title">A Formally Verified Buddy Memory Allocation Model</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Jiang, Ke,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Sanán, David,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Zhao, Yongwang,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Kan, Shuanglong,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Liu, Yang
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In 24th International Conference on Engineering of Complex Computer Systems,
+               ICECCS 2019, Guangzhou, China, November 10-13, 2019</em>
+      
+      
+        2019
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">SETTA</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/setta/ZhangZSQZ19" class="col-sm-8">
+    
+      <span class="title">A Verified Specification of TLSF Memory Management Allocator Using
+               State Monads</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Zhang, Yu,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Zhao, Yongwang,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Sanán, David,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Qiao, Lei,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Zhang, Jinkun
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Dependable Software Engineering. Theories, Tools, and Applications
+               - 5th International Symposium, SETTA 2019, Shanghai, China, November
+               27-29, 2019, Proceedings</em>
+      
+      
+        2019
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">TDSC</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:journals/tdsc/ZhaoSZL19" class="col-sm-8">
+    
+      <span class="title">Refinement-Based Specification and Security Analysis of Separation
+               Kernels</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Zhao, Yongwang,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Sanán, David,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Zhang, Fuyuan,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Liu, Yang
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>IEEE Trans. Dependable Secur. Comput.</em>
+      
+      
+        2019
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">CAV</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/cav/ZhaoS19" class="col-sm-8">
+    
+      <span class="title">Rely-Guarantee Reasoning About Concurrent Memory Management in Zephyr
+               RTOS</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Zhao, Yongwang,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Sanán, David
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Computer Aided Verification - 31st International Conference, CAV
+               2019, New York City, NY, USA, July 15-18, 2019, Proceedings, Part
+               II</em>
+      
+      
+        2019
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">SOSP</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/sosp/ZouDDFGC19" class="col-sm-8">
+    
+      <span class="title">Using concurrent relational logic with helpers for verifying the AtomFS
+               file system</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Zou, Mo,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Ding, Haoran,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Du, Dong,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Fu, Ming,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Gu, Ronghui,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Chen, Haibo
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Proceedings of the 27th ACM Symposium on Operating Systems Principles,
+               SOSP 2019, Huntsville, ON, Canada, October 27-30, 2019</em>
+      
+      
+        2019
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li></ol>
+
+
+</div>
+
+  </article>
+
+</div>
+
+    </div>
+
+    <!-- Footer -->
+
+    
+<footer class="fixed-bottom">
+  <div class="container mt-0">
+    &copy; Copyright 2025 TPChina.
+    Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+
+    
+  </div>
+</footer>
+
+
+
+  </body>
+
+  <!-- Load Core and Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.0/umd/popper.min.js" integrity="sha256-OH05DFHUWzr725HmuHo3pnuvUUn+TJuj8/Qz9xytFEw=" crossorigin="anonymous"></script>
+<script src="/assets/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.17.0/js/mdb.min.js"  integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+<!-- Load Common JS -->
+<script src="/assets/js/common.js"></script>
+
+<!-- Code Syntax Highlighting -->
+<link rel="stylesheet" href="/assets/css/github.css" />
+
+
+<!-- Load KaTeX -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.11.1/katex.min.css" integrity="sha256-V8SV2MO1FUb63Bwht5Wx9x6PVHNa02gv8BgH/uH3ung=" crossorigin="anonymous" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.11.1/katex.min.js" integrity="sha256-F/Xda58SPdcUCr+xhSGz9MA2zQBPb0ASEYKohl8UCHc=" crossorigin="anonymous"></script>
+<script src="/assets/js/katex.js"></script>
+
+
+
+<!-- Load Mansory & imagesLoaded -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js" integrity="" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+
+<!-- Project Cards Layout -->
+<script type="text/javascript">
+  // Init Masonry
+  var $grid = $('.grid').masonry({
+    gutter: 10,
+    horizontalOrder: true,
+    itemSelector: '.grid-item',
+  });
+  // layout Masonry after each image loads
+  $grid.imagesLoaded().progress( function() {
+    $grid.masonry('layout');
+  });
+</script>
+
+
+
+
+
+
+
+</html>

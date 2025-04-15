@@ -1,0 +1,1434 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<title>TPChina | SAT求解</title>
+<meta name="description" content="中国定理证明社区
+">
+
+<!-- Bootstrap & MDB -->
+<link href="/assets/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.17.0/css/mdb.min.css" integrity="sha256-/SwJ2GDcEt5382i8zqDwl36VJGECxEoIcBIuoLmLR4g=" crossorigin="anonymous" />
+
+<!-- Fonts & Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"  integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+
+<!-- Styles -->
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<link rel="canonical" href="/atp/sat/">
+
+<!-- Open Graph -->
+
+
+  </head>
+
+  <body class="fixed-top-nav ">
+
+    <!-- Header -->
+
+    <header>
+
+    <!-- Nav Bar -->
+    <nav id="navbar" class="navbar navbar-light bg-white navbar-expand-sm fixed-top">
+    <div class="container">
+      <!--  -->
+        <!--  -->
+        <!-- <a class="navbar-brand title font-weight-lighter" href="/"><span class="font-weight-bold">TPChina</span> TPChina</a> -->
+      <!--  -->
+      <img src="/logo.jpg" height="60">
+      <!-- Navbar Toogle -->
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+          <!-- About -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/">
+              首页
+              
+            </a>
+          </li>
+          
+          <!-- Blog -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/blog/">
+              新闻
+              
+            </a>
+          </li>
+          
+          <!-- Other pages -->
+          <!-- 
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/papers_intro/">
+                论文
+                
+              </a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/readings/">
+                资料
+                
+              </a>
+          </li>
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/projects/">
+                项目
+                
+              </a>
+          </li>
+          
+           -->
+          <li class="nav-item">
+            <a class="nav-link" href="/papers_intro/">
+              论文
+              
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/readings/">
+              资料
+              
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/projects/">
+              项目
+              
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about/">
+              关于
+              
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+</header>
+
+
+    <!-- Content -->
+
+    <div class="container mt-5">
+      <div class="post">
+
+  <header class="post-header">
+    <h2 class="post-title"><span class="font-weight-bold">SAT求解</span></h2>
+    <p class="post-description"></p>
+  </header>
+
+  <article>
+    <div class="left_sidebar">
+    
+    <h5><strong>自动定理证明</strong></h5>
+    
+    
+        
+            <p><a href="/atp/sat/" style="color:blue">SAT求解</a></p>
+        
+        
+        
+            <p><a href="/atp/smt/">SMT求解</a></p>
+        
+        
+        
+            <p><a href="/atp/first_order/">一阶逻辑求解</a></p>
+        
+        
+		
+    <h5><strong>交互式定理证明</strong></h5>
+    
+    
+    
+        
+            <p><a href="/itp/history/">概述和历史</a></p>
+        
+        
+        
+            <p><a href="/itp/assistants/">证明辅助工具</a></p>
+        
+        
+        
+            <p><a href="/itp/math/">形式化数学</a></p>
+        
+        
+        
+            <p><a href="/itp/algo_and_ds/">算法与数据结构</a></p>
+        
+        
+        
+            <p><a href="/itp/pl_and_compliers/">程序语言和编译器</a></p>
+        
+        
+        
+            <p><a href="/itp/pv_logic/">程序验证逻辑</a></p>
+        
+        
+        
+            <p><a href="/itp/op_system/">操作系统验证</a></p>
+        
+        
+        
+            <p><a href="/itp/hardware_verification">硬件验证</a></p>
+        
+        
+        
+            <p><a href="/itp/block_chain">区块链验证</a></p>
+        
+        
+        
+            <p><a href="/itp/hybrid_system">混成系统验证</a></p>
+        
+        
+        
+            <p><a href="/itp/quantum">量子系统验证</a></p>
+        
+        
+</div>
+
+<div class="right_sidebar">
+    <h5><strong>目录</strong></h5>
+    
+    
+    
+    
+        <p>概述</p>
+    
+        <p>并行求解及应用</p>
+    
+        <p>证明检验</p>
+    
+        <p>硬件验证</p>
+    
+    
+    
+    
+    
+    
+    
+</div>
+
+<div class="publications">
+
+<h2 class="year">概述</h2>
+<ol class="bibliography"><li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+  </div>
+
+  <div id="DBLP:series/faia/2009-185" class="col-sm-8">
+    
+      <span class="title">Handbook of Satisfiability</span>
+      <span class="author">
+        
+      </span>
+
+      <span class="periodical">
+      
+      
+        2009
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+  </div>
+
+  <div id="DBLP:journals/jar/Wiedijk12" class="col-sm-8">
+    
+      <span class="title">"Handbook of Practical Logic and Automated Reasoning, " by John R.
+               Harrison, Cambridge University Press, 2009</span>
+      <span class="author">
+        
+          
+            
+              Wiedijk, Freek
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>J. Autom. Reason.</em>
+      
+      
+        2012
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li></ol>
+
+
+<h2 class="year">并行求解</h2>
+<ol class="bibliography"><li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">IJCAI</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/ijcai/HeuleKM17" class="col-sm-8">
+    
+      <span class="title">Solving Very Hard Problems: Cube-and-Conquer, a Hybrid SAT Solving
+               Method</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Heule, Marijn J. H.,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Kullmann, Oliver,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Marek, Victor W.
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Proceedings of the Twenty-Sixth International Joint Conference on
+               Artificial Intelligence, IJCAI 2017, Melbourne, Australia, August
+               19-25, 2017</em>
+      
+      
+        2017
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">SAT</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/sat/HeuleKM16" class="col-sm-8">
+    
+      <span class="title">Solving and Verifying the Boolean Pythagorean Triples Problem via
+               Cube-and-Conquer</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Heule, Marijn J. H.,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Kullmann, Oliver,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Marek, Victor W.
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Theory and Applications of Satisfiability Testing - SAT 2016 - 19th
+               International Conference, Bordeaux, France, July 5-8, 2016, Proceedings</em>
+      
+      
+        2016
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">AAAI</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/aaai/Heule18" class="col-sm-8">
+    
+      <span class="title">Schur Number Five</span>
+      <span class="author">
+        
+          
+            
+              Heule, Marijn J. H.
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Proceedings of the Thirty-Second AAAI Conference on Artificial Intelligence,
+               (AAAI-18), the 30th innovative Applications of Artificial Intelligence
+               (IAAI-18), and the 8th AAAI Symposium on Educational Advances in
+               Artificial Intelligence (EAAI-18), New Orleans, Louisiana, USA, February
+               2-7, 2018</em>
+      
+      
+        2018
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">CAD</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/cade/BrakensiekHMN20" class="col-sm-8">
+    
+      <span class="title">The Resolution of Keller’s Conjecture</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Brakensiek, Joshua,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Heule, Marijn,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Mackey, John,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Narváez, David
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Automated Reasoning - 10th International Joint Conference, IJCAR
+               2020, Paris, France, July 1-4, 2020, Proceedings, Part I</em>
+      
+      
+        2020
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li></ol>
+
+
+<h2 class="year">证明检验</h2>
+<ol class="bibliography"><li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">ITP</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/itp/HeuleHKW17" class="col-sm-8">
+    
+      <span class="title">Efficient, Verified Checking of Propositional Proofs</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Heule, Marijn,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Jr., Warren A. Hunt,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Kaufmann, Matt,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Wetzler, Nathan
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Interactive Theorem Proving - 8th International Conference, ITP
+               2017, Brası́lia, Brazil, September 26-29, 2017, Proceedings</em>
+      
+      
+        2017
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">CADE</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/cade/BlanchetteFW16" class="col-sm-8">
+    
+      <span class="title">A Verified SAT Solver Framework with Learn, Forget, Restart, and
+               Incrementality</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Blanchette, Jasmin Christian,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Fleury, Mathias,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Weidenbach, Christoph
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Automated Reasoning - 8th International Joint Conference, IJCAR
+               2016, Coimbra, Portugal, June 27 - July 2, 2016, Proceedings</em>
+      
+      
+        2016
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">CPP</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/cpp/FleuryBL18" class="col-sm-8">
+    
+      <span class="title">A verified SAT solver with watched literals using imperative HOL</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Fleury, Mathias,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Blanchette, Jasmin Christian,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Lammich, Peter
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Proceedings of the 7th ACM SIGPLAN International Conference on
+               Certified Programs and Proofs, CPP 2018, Los Angeles, CA, USA, January
+               8-9, 2018</em>
+      
+      
+        2018
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">CADE</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/cade/Lammich17" class="col-sm-8">
+    
+      <span class="title">Efficient Verified (UN)SAT Certificate Checking</span>
+      <span class="author">
+        
+          
+            
+              Lammich, Peter
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Automated Deduction - CADE 26 - 26th International Conference on
+               Automated Deduction, Gothenburg, Sweden, August 6-11, 2017, Proceedings</em>
+      
+      
+        2017
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li></ol>
+
+
+<h2 class="year">硬件验证</h2>
+<ol class="bibliography"><li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">IEEE</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:journals/pieee/VizelWM15" class="col-sm-8">
+    
+      <span class="title">Boolean Satisfiability Solvers and Their Applications in Model Checking</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Vizel, Yakir,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Weissenbacher, Georg,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Malik, Sharad
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>Proc. IEEE</em>
+      
+      
+        2015
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">TACAS</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/tacas/BiereCCZ99" class="col-sm-8">
+    
+      <span class="title">Symbolic Model Checking without BDDs</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Biere, Armin,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Cimatti, Alessandro,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Clarke, Edmund M.,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Zhu, Yunshan
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Tools and Algorithms for Construction and Analysis of Systems, 5th
+               International Conference, TACAS ’99, Held as Part of the European
+               Joint Conferences on the Theory and Practice of Software, ETAPS’99,
+               Amsterdam, The Netherlands, March 22-28, 1999, Proceedings</em>
+      
+      
+        1999
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">CAV</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/cav/McMillan02" class="col-sm-8">
+    
+      <span class="title">Applying SAT Methods in Unbounded Symbolic Model Checking</span>
+      <span class="author">
+        
+          
+            
+              McMillan, Kenneth L.
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Computer Aided Verification, 14th International Conference, CAV
+               2002,Copenhagen, Denmark, July 27-31, 2002, Proceedings</em>
+      
+      
+        2002
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">CAV</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/cav/McMillan03" class="col-sm-8">
+    
+      <span class="title">Interpolation and SAT-Based Model Checking</span>
+      <span class="author">
+        
+          
+            
+              McMillan, Kenneth L.
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Computer Aided Verification, 15th International Conference, CAV
+               2003, Boulder, CO, USA, July 8-12, 2003, Proceedings</em>
+      
+      
+        2003
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">CAV</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/cav/McMillan06" class="col-sm-8">
+    
+      <span class="title">Lazy Abstraction with Interpolants</span>
+      <span class="author">
+        
+          
+            
+              McMillan, Kenneth L.
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Computer Aided Verification, 18th International Conference, CAV
+               2006, Seattle, WA, USA, August 17-20, 2006, Proceedings</em>
+      
+      
+        2006
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">VMCAI</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/vmcai/Bradley11" class="col-sm-8">
+    
+      <span class="title">SAT-Based Model Checking without Unrolling</span>
+      <span class="author">
+        
+          
+            
+              Bradley, Aaron R.
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In Verification, Model Checking, and Abstract Interpretation - 12th International
+               Conference, VMCAI 2011, Austin, TX, USA, January 23-25, 2011. Proceedings</em>
+      
+      
+        2011
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li>
+<li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+    
+    <abbr class="badge">FMCAD</abbr>
+    
+  
+  </div>
+
+  <div id="DBLP:conf/fmcad/EenMB11" class="col-sm-8">
+    
+      <span class="title">Efficient implementation of property directed reachability</span>
+      <span class="author">
+        
+          
+            
+              
+                
+                  Eén, Niklas,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  Mishchenko, Alan,
+                
+              
+            
+          
+        
+          
+            
+              
+                
+                  and Brayton, Robert K.
+                
+              
+            
+          
+        
+      </span>
+
+      <span class="periodical">
+      
+        <em>In International Conference on Formal Methods in Computer-Aided Design,
+               FMCAD ’11, Austin, TX, USA, October 30 - November 02, 2011</em>
+      
+      
+        2011
+      
+      </span>
+    
+
+    <span class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li></ol>
+
+
+</div>
+
+  </article>
+
+</div>
+
+    </div>
+
+    <!-- Footer -->
+
+    
+<footer class="fixed-bottom">
+  <div class="container mt-0">
+    &copy; Copyright 2025 TPChina.
+    Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+
+    
+  </div>
+</footer>
+
+
+
+  </body>
+
+  <!-- Load Core and Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.0/umd/popper.min.js" integrity="sha256-OH05DFHUWzr725HmuHo3pnuvUUn+TJuj8/Qz9xytFEw=" crossorigin="anonymous"></script>
+<script src="/assets/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.17.0/js/mdb.min.js"  integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+<!-- Load Common JS -->
+<script src="/assets/js/common.js"></script>
+
+<!-- Code Syntax Highlighting -->
+<link rel="stylesheet" href="/assets/css/github.css" />
+
+
+<!-- Load KaTeX -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.11.1/katex.min.css" integrity="sha256-V8SV2MO1FUb63Bwht5Wx9x6PVHNa02gv8BgH/uH3ung=" crossorigin="anonymous" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.11.1/katex.min.js" integrity="sha256-F/Xda58SPdcUCr+xhSGz9MA2zQBPb0ASEYKohl8UCHc=" crossorigin="anonymous"></script>
+<script src="/assets/js/katex.js"></script>
+
+
+
+<!-- Load Mansory & imagesLoaded -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js" integrity="" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+
+<!-- Project Cards Layout -->
+<script type="text/javascript">
+  // Init Masonry
+  var $grid = $('.grid').masonry({
+    gutter: 10,
+    horizontalOrder: true,
+    itemSelector: '.grid-item',
+  });
+  // layout Masonry after each image loads
+  $grid.imagesLoaded().progress( function() {
+    $grid.masonry('layout');
+  });
+</script>
+
+
+
+
+
+
+
+</html>
